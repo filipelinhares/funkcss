@@ -1,0 +1,47 @@
+/*
+
+  TEXT HELPERS
+
+  .ta = text-align
+  .tt = text-transform
+  .fw = font-weight
+  .fs = font-style
+  .td = text-decoration
+
+*/
+
+.ta-c { text-align: center; }
+.ta-l { text-align: left; }
+.ta-r { text-align: right; }
+
+.tt-n { text-transform: none; }
+.tt-u { text-transform: uppercase; letter-spacing: .12em; }
+.tt-l { text-transform: lowercase; }
+.tt-c { text-transform: capitalize; }
+
+.fw-b { font-weight: 700; }
+.fw-n { font-weight: normal; }
+.fw-t { font-weight: 300; }
+
+.fs-i { font-style: italic; }
+.fs-o { font-style: oblique; }
+
+.td-n { text-decoration: none; }
+.td-o { text-decoration: overline; }
+.td-lt { text-decoration: line-through; }
+.td-u { text-decoration: underline; }
+
+.truncate {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.reset-font {
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+}

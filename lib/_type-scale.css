@@ -1,0 +1,27 @@
+/*
+
+  FONT SCALE
+
+*/
+
+.font-micro { font-size: var(--font-scale-micro); }
+.font-smallest { font-size: var(--font-scale-smallest); }
+.font-smaller { font-size: var(--font-scale-smaller); }
+.font-small { font-size: var(--font-scale-small); }
+.font-base { font-size: var(--font-scale-base); }
+.font-large { font-size: var(--font-scale-large); }
+.font-larger { font-size: var(--font-scale-larger); }
+.font-largest { font-size: var(--font-scale-largest); }
+.font-jumbo { font-size: var(--font-scale-jumbo); }
+
+:root {
+  --font-scale-micro: .5rem;
+  --font-scale-smallest: .7rem;
+  --font-scale-smaller: .75rem;
+  --font-scale-small: .875rem;
+  --font-scale-base: 1rem;
+  --font-scale-large: 1.125rem;
+  --font-scale-larger: 1.25rem;
+  --font-scale-largest: 1.5rem;
+  --font-scale-jumbo: 2rem
+}

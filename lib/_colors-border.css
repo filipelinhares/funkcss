@@ -1,0 +1,35 @@
+/*
+
+  BORDER COLORS HELPERS by @mrmrs - http://clrs.cc/
+
+*/
+
+.brd-navy {    border-color: var(--navy); }
+.brd-blue {    border-color: var(--blue); }
+.brd-aqua {    border-color: var(--aqua); }
+.brd-teal {    border-color: var(--teal); }
+.brd-olive {   border-color: var(--olive); }
+.brd-green {   border-color: var(--green); }
+.brd-lime {    border-color: var(--lime); }
+
+.brd-yellow {  border-color: var(--yellow); }
+.brd-orange {  border-color: var(--orange); }
+.brd-red {     border-color: var(--red); }
+.brd-fuchsia { border-color: var(--fuchsia); }
+.brd-purple {  border-color: var(--purple); }
+.brd-maroon {  border-color: var(--maroon); }
+
+.brd-white {   border-color: var(--white); }
+.brd-silver {  border-color: var(--silver); }
+.brd-gray {    border-color: var(--gray); }
+.brd-black {   border-color: var(--black); }
+
+.brd-darken-1 { background-color: var(--darken-1) }
+.brd-darken-2 { background-color: var(--darken-2) }
+.brd-darken-3 { background-color: var(--darken-3) }
+.brd-darken-4 { background-color: var(--darken-4) }
+
+.brd-lighten-1 { background-color: var(--lighten-1) }
+.brd-lighten-2 { background-color: var(--lighten-2) }
+.brd-lighten-3 { background-color: var(--lighten-3) }
+.brd-lighten-4 { background-color: var(--lighten-4) }

@@ -1,0 +1,30 @@
+/*
+
+  TABLE STYLED
+
+*/
+
+.table-bordered {
+  th,
+  td {
+    border-bottom-width: var(--border-width);
+    border-bottom-style: solid;
+    border-bottom-color: var(--border-color);
+}
+
+  tr:last-child td {
+    border-bottom: 0;
+  }
+}
+
+.table-striped {
+  tr:nth-child(even) {
+    background: var(--darken-1);
+  }
+}
+
+.table-hover {
+  tr:hover {
+    background: var(--darken-1);
+  }
+}

@@ -1,0 +1,60 @@
+/*
+
+  BASE VARIABLES
+
+*/
+
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 60em);
+
+:root {
+  --container-width: 60rem;
+  --border-width: 1px;
+  --border-radius: 3px;
+  --border-color: var(--darken-1);
+
+  --gap-1: .5rem;
+  --gap-2: 1rem;
+  --gap-3: 2rem;
+  --gap-4: 4rem;
+
+  --darken-1: rgba(0,0,0,.0625);
+  --darken-2: rgba(0,0,0,.125);
+  --darken-3: rgba(0,0,0,.25);
+  --darken-4: rgba(0,0,0,.5);
+
+  --lighten-1: rgba(255,255,255,.0625);
+  --lighten-2: rgba(255,255,255,.125);
+  --lighten-3: rgba(255,255,255,.25);
+  --lighten-4: rgba(255,255,255,.5);
+
+  /*
+
+    COLORS
+
+  */
+
+  --aqua:   #7fdbff;
+  --blue:   #0074d9;
+  --navy:   #001f3f;
+  --teal:   #39cccc;
+  --green:  #2ecc40;
+  --olive:  #3d9970;
+  --lime:   #01ff70;
+
+  --yellow: #ffdc00;
+  --orange: #ff851b;
+  --red:    #ff4136;
+  --fuchsia:#f012be;
+  --purple: #b10dc9;
+  --maroon: #85144b;
+
+
+  /* Gray scale */
+
+  --white:  #fff;
+  --silver: #ddd;
+  --gray:   #aaa;
+  --black:  #111;
+}

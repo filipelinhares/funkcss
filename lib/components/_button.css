@@ -1,0 +1,47 @@
+/*
+
+  BASE BUTTONS STYLE
+
+*/
+
+.btn {
+  background: var(--button-background-color);
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: var(--button-font-size);
+  line-height: var(--button-line-height);
+  padding: var(--button-paddingY) var(--button-paddingX);
+  text-transform: var(--button-text-transform);
+  margin: 0;
+  border: var(--border-width) solid transparent;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  color: var(--button-color);
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--darken-2);
+  }
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+
+:root {
+  --button-color: inherit;
+  --button-background-color: transparent;
+  --button-font-size: inherit;
+  --button-font-weight: normal;
+  --button-text-transform: none;
+  --button-line-height: 1.125rem;
+  --button-paddingY: .5rem;
+  --button-paddingX: 1rem;
+}

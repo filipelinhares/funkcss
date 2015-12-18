@@ -1,0 +1,58 @@
+/*
+
+  BASE FORM NORMALIZE
+
+*/
+
+@custom-selector :--input-text input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"];
+
+input,
+select,
+textarea,
+fieldset {
+  font-family: var(--font-family);
+  font-size: var(--form-field-font-size);
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+  outline: 0;
+}
+
+fieldset {
+  border-color: var(--darken-2);
+  border-width: 1px;
+}
+
+label {
+  vertical-align: middle;
+}
+
+select {
+  line-height: 1.75;
+  padding: var(--form-field-paddingY) var(--form-field-paddingX);
+}
+
+select:not([multiple]) {
+  height: var(--form-field-height);
+  vertical-align: middle;
+}
+
+textarea {
+  line-height: 1.75;
+  padding: var(--form-field-paddingY) var(--form-field-paddingX);
+}
+
+:--input-text {
+  display: inline-block;
+  height: var(--form-field-height);
+  padding: var(--form-field-paddingY) var(--form-field-paddingX);
+  -webkit-appearance: none;
+}
+
+:root {
+  --form-field-border-radius: 4px;
+  --form-field-paddingY: .5rem;
+  --form-field-paddingX: .5rem;
+  --form-field-height: 2.25rem; /* 36px */
+  --form-field-font-size: 1rem;
+}
