@@ -190,6 +190,526 @@ h6 {
    */
 }
 
+/* # ========== Components */
+/*
+
+  BASE BUTTONS STYLE
+
+*/
+.btn {
+    background: transparent;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: inherit;
+    line-height: 18px;
+    line-height: 1.125rem;
+    padding: 8px 16px;
+    padding: .5rem 1rem;
+    text-transform: none;
+    margin: 0;
+    border: 1px solid transparent;
+    -webkit-appearance: none;
+    vertical-align: middle;
+    color: inherit;
+}
+.btn:hover, .btn:focus {
+    text-decoration: none;
+}
+.btn:focus {
+    outline: none;
+    border-color: #000000;
+    border-color: rgba(0,0,0,.125);
+}
+::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+/*
+
+  GRID
+
+*/
+.container {
+    max-width: 960px;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+[class^="col"] {
+    float: left;
+    box-sizing: border-box;
+}
+.col-1 {
+    width: 8.33333%;
+}
+.col-2 {
+    width: 16.66667%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33333%;
+}
+.col-5 {
+    width: 41.66667%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33333%;
+}
+.col-8 {
+    width: 66.66667%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33333%;
+}
+.col-11 {
+    width: 91.66667%;
+}
+.col-12 {
+    width: 100%;
+}
+@media (min-width: 40em) {
+    [class^="sm-col"] {
+        float: left;
+        box-sizing: border-box;
+    }
+    .sm-col-1 {
+        width: 8.33333%;
+    }
+    .sm-col-2 {
+        width: 16.66667%;
+    }
+    .sm-col-3 {
+        width: 25%;
+    }
+    .sm-col-4 {
+        width: 33.33333%;
+    }
+    .sm-col-5 {
+        width: 41.66667%;
+    }
+    .sm-col-6 {
+        width: 50%;
+    }
+    .sm-col-7 {
+        width: 58.33333%;
+    }
+    .sm-col-8 {
+        width: 66.66667%;
+    }
+    .sm-col-9 {
+        width: 75%;
+    }
+    .sm-col-10 {
+        width: 83.33333%;
+    }
+    .sm-col-11 {
+        width: 91.66667%;
+    }
+    .sm-col-12 {
+        width: 100%;
+    }
+}
+@media (min-width: 52em) {
+    [class^="md-col"] {
+        float: left;
+        box-sizing: border-box;
+    }
+    .md-col-1 {
+        width: 8.33333%;
+    }
+    .md-col-2 {
+        width: 16.66667%;
+    }
+    .md-col-3 {
+        width: 25%;
+    }
+    .md-col-4 {
+        width: 33.33333%;
+    }
+    .md-col-5 {
+        width: 41.66667%;
+    }
+    .md-col-6 {
+        width: 50%;
+    }
+    .md-col-7 {
+        width: 58.33333%;
+    }
+    .md-col-8 {
+        width: 66.66667%;
+    }
+    .md-col-9 {
+        width: 75%;
+    }
+    .md-col-10 {
+        width: 83.33333%;
+    }
+    .md-col-11 {
+        width: 91.66667%;
+    }
+    .md-col-12 {
+        width: 100%;
+    }
+}
+@media (min-width: 60em) {
+    [class^="lg-col"] {
+        float: left;
+        box-sizing: border-box;
+    }
+    .lg-col-1 {
+        width: 8.33333%;
+    }
+    .lg-col-2 {
+        width: 16.66667%;
+    }
+    .lg-col-3 {
+        width: 25%;
+    }
+    .lg-col-4 {
+        width: 33.33333%;
+    }
+    .lg-col-5 {
+        width: 41.66667%;
+    }
+    .lg-col-6 {
+        width: 50%;
+    }
+    .lg-col-7 {
+        width: 58.33333%;
+    }
+    .lg-col-8 {
+        width: 66.66667%;
+    }
+    .lg-col-9 {
+        width: 75%;
+    }
+    .lg-col-10 {
+        width: 83.33333%;
+    }
+    .lg-col-11 {
+        width: 91.66667%;
+    }
+    .lg-col-12 {
+        width: 100%;
+    }
+}
+/*
+
+  TABLE STYLED
+
+*/
+.table-bordered th,
+  .table-bordered td {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0,0,0,.0625);
+}
+.table-bordered tr:last-child td {
+    border-bottom: 0;
+}
+.table-striped tr:nth-child(even) {
+    background: #000000;
+    background: rgba(0,0,0,.0625);
+}
+.table-hover tr:hover, .table-hover tr:focus {
+    background: #000000;
+    background: rgba(0,0,0,.0625);
+}
+/*
+
+  FORM STYLED
+
+*/
+.field {
+    border-radius: 4px;
+    border: 1px solid #000000;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.field:focus,
+  .field .is-focused {
+    border-color: #0074d9;
+    box-shadow: 0 0 0 2px rgba(0, 116, 217, 0.5);
+}
+.field:disabled,
+  .field .is-disabled {
+    background-color: #000000;
+    background-color: rgba(0,0,0,.125);
+    opacity: .5;
+}
+.field:-moz-read-only:not(select),
+  .field.is-read-only {
+    background-color: #000000;
+    background-color: rgba(0,0,0,.125);
+}
+.field:read-only:not(select),
+  .field.is-read-only {
+    background-color: #000000;
+    background-color: rgba(0,0,0,.125);
+}
+.field.is-success {
+    border-color: #2ecc40;
+}
+.field.is-success:focus,
+    .field.is-success.is-focus {
+    box-shadow: 0 0 0 2px rgba(46, 204, 64, 0.5);
+}
+.field.is-warning {
+    border-color: #ffdc00;
+}
+.field.is-warning:focus,
+    .field.is-warning.is-focus {
+    box-shadow: 0 0 0 2px rgba(255, 220, 0, 0.5);
+}
+.field.is-error {
+    border-color: #ff4136;
+}
+.field.is-error:focus,
+    .field.is-error.is-focus {
+    box-shadow: 0 0 0 2px rgba(255, 65, 54, 0.5);
+}
+/*
+
+  DROPDOWN COMPONENT
+
+*/
+/* dropdown container */
+.dropdown {
+    position: relative;
+}
+.dropdown:hover .dropdown-menu, .dropdown:focus .dropdown-menu, .dropdown.is-droped .dropdown-menu, .dropdown:focus .dropdown-menu {
+    display: block;
+}
+/* dropdown list */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 9000;
+    padding-top: 15px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.0625);
+}
+/* the arrow */
+.dropdown-menu:before,
+  .dropdown-menu:after {
+    position: absolute;
+    content: '';
+    border: 10px solid transparent;
+    border-bottom-color: #fff;
+    top: -4px;
+    bottom: 100%;
+    left: 10px;
+    z-index: 4000;
+}
+.dropdown-menu:after {
+    z-index: 2000;
+    border-bottom-color: rgba(0,0,0,.125);
+    top: -5px;
+}
+/*
+
+  STYLED BUTTONS
+
+*/
+.btn-styled {
+    background: #0074d9;
+    color: #fff;
+    border-radius: 4px;
+}
+.btn-styled:hover, .btn-styled:focus {
+    box-shadow: inset 0 0 0 20rem rgba(0,0,0,.0625);
+}
+.btn-styled:active {
+    box-shadow: inset 0 0 0 20rem rgba(0,0,0,.125),
+    inset 0 2px 4px 0 rgba(0,0,0,.125),
+    0 0 1px rgba(0,0,0,.125);
+}
+.btn-styled:disabled,
+.btn-styled.is-disabled {
+    opacity: .5;
+}
+/*
+
+  TOOLTIPS
+
+*/
+.tooltip {
+    position: relative;
+}
+/* This is the tooltip bubble */
+.tooltip:after {
+    position: absolute;
+    z-index: 9000;
+    display: none;
+    padding: 5px 8px;
+    font-size: 11px;
+    font-size: .7rem;
+    color: #fff;
+    text-align: center;
+    word-wrap: break-word;
+    white-space: pre;
+    pointer-events: none;
+    content: attr(aria-label);
+    background: #000000;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+/* This is the tooltip arrow */
+.tooltip:before {
+    position: absolute;
+    z-index: 9000;
+    display: none;
+    width: 0;
+    height: 0;
+    color: #000000;
+    color: rgba(0, 0, 0, 0.8);
+    pointer-events: none;
+    content: '';
+    border: 5px solid transparent;
+}
+/* This will indicate when we'll activate the tooltip */
+.tooltip:hover:before,
+  .tooltip:hover:after,
+  .tooltip:active:before,
+  .tooltip:active:after,
+  .tooltip:focus:before,
+  .tooltip:focus:after,
+  .tooltip:focus:before,
+  .tooltip:focus:after {
+    display: inline-block;
+    text-decoration: none;
+}
+.tooltip-multiline:hover:after, .tooltip-multiline:active:after, .tooltip-multiline:focus:after, .tooltip-multiline:focus:after {
+    display: table-cell;
+}
+/* Tooltipped bottom */
+.tooltipB:after, .tooltipBR:after, .tooltipBL:after {
+    top: 100%;
+    right: 50%;
+    margin-top: 5px;
+}
+.tooltipB:before, .tooltipBR:before, .tooltipBL:before {
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    margin-right: -5px;
+    border-bottom-color: rgba(0, 0, 0, 0.8);
+}
+.tooltipBR:after {
+    right: auto;
+    left: 50%;
+    margin-left: -15px;
+}
+.tooltipBL:after {
+    margin-right: -15px;
+}
+/* Tooltips on the top the object */
+.tooltipT:after, .tooltipTR:after, .tooltipTL:after {
+    right: 50%;
+    bottom: 100%;
+    margin-bottom: 5px;
+}
+.tooltipT:before, .tooltipTR:before, .tooltipTL:before {
+    top: -5px;
+    right: 50%;
+    bottom: auto;
+    margin-right: -5px;
+    border-top-color: rgba(0, 0, 0, 0.8);
+}
+.tooltipTR:after {
+    right: auto;
+    left: 50%;
+    margin-left: -15px;
+}
+.tooltipTL:after {
+    margin-right: -15px;
+}
+/* Move the tooltip body to the center of the object. */
+.tooltipB:after,
+.tooltipT:after {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+}
+/* Tooltipped to the left */
+.tooltipL:after {
+    right: 100%;
+    bottom: 50%;
+    margin-right: 5px;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+}
+.tooltipL:before {
+    top: 50%;
+    bottom: 50%;
+    left: -5px;
+    margin-top: -5px;
+    border-left-color: rgba(0, 0, 0, 0.8);
+}
+/* tooltip to the right */
+.tooltipR:after {
+    bottom: 50%;
+    left: 100%;
+    margin-left: 5px;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+}
+.tooltipR:before {
+    top: 50%;
+    right: -5px;
+    bottom: 50%;
+    margin-top: -5px;
+    border-right-color: rgba(0, 0, 0, 0.8);
+}
+/* Multiline tooltips */
+/* */
+/* `.tooltip-multiline` Add this class when you have long content. */
+/* The downside is you cannot preformat the text with newlines and `[w,e]` */
+/* are always `var(--multiline-max-width)` wide. */
+.tooltip-multiline:after {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    max-width: 250px;
+    word-break: break-word;
+    word-wrap: normal;
+    white-space: pre-line;
+    border-collapse: separate;
+}
+.tooltip-multiline.tooltipB:after,
+  .tooltip-multiline.tooltipT:after {
+    right: auto;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.tooltip-multiline.tooltipL:after,
+  .tooltip-multiline.tooltipR:after {
+    right: 100%;
+}
+@media screen and (min-width:0\0) {/* IE9 and IE10 rule sets go here */
+    .tooltip-multiline:after {
+        width: 250px;
+    }
+}
+/* Sticky tooltips */
+/* */
+/* Always show the tooltip. */
+.is-tooltiped:before,
+  .is-tooltiped:after {
+    display: inline-block;
+}
+.is-tooltiped.tooltip-multiline:after {
+    display: table-cell;
+}
+
 /* # ========== Colors */
 /*
 

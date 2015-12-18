@@ -14,15 +14,17 @@ var postCSSArray = [
 ];
 
 gulp.task('postcss', function () {
-  return gulp.src('lib/funk.css')
+  return gulp.src(['lib/funk.css', 'lib/funk-components.css'])
     .pipe(postcss(postCSSArray))
     .pipe(gulp.dest('dist/'))
 });
 
 gulp.task('min', ['postcss'], function () {
-    return gulp.src('dist/funk.css')
+    return gulp.src(['dist/funk.css', 'dist/funk-components.css'])
     .pipe(shrink())
-      .pipe(rename('funk.min.css'))
+      .pipe(rename({
+        suffix: '.min'
+      }))
       .pipe(gulp.dest('dist/'))
 });
 

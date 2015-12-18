@@ -4,6 +4,9 @@
 @import 'base-table';
 @import 'base-type';
 
+/* # ========== Components */
+@import 'components/all';
+
 /* # ========== Colors */
 @import 'colors';
 @import 'colors-background';
