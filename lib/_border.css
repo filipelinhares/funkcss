@@ -11,36 +11,6 @@
 
 */
 
-@for $i from 0 to 5 {
-  .brd$(i) { border: $(i)px; }
-  .brdT$(i) { border-top-width: $(i)px; }
-  .brdR$(i) { border-right-width: $(i)px; }
-  .brdB$(i) { border-bottom-width: $(i)px; }
-  .brdL$(i) { border-left-width: $(i)px; }
-
-  .radius-$(i) { border-radius: $(i)px; }
-
-  .radiusT$(i) {
-    border-top-left-radius: $(i)px;
-    border-top-right-radius: $(i)px;
-  }
-
-  .radiusR$(i) {
-    border-top-right-radius: $(i)px;
-    border-bottom-right-radius: $(i)px;
-  }
-
-  .radiusB$(i) {
-    border-bottom-left-radius: $(i)px;
-    border-bottom-right-radius: $(i)px;
-  }
-
-  .radiusL$(i) {
-    border-top-left-radius: $(i)px;
-    border-bottom-left-radius: $(i)px;
-  }
-}
-
 .brd-s { border-style: solid; }
 .brd-dt { border-style: dotted; }
 .brd-ds { border-style: dashed; }
@@ -56,5 +26,35 @@
 .brdR { border-right: var(--border-width) solid var(--border-color); }
 .brdB { border-bottom: var(--border-width) solid var(--border-color); }
 .brdL { border-left: var(--border-width) solid var(--border-color); }
+
+@for $i from 0 to 5 {
+  .brd-$(i) { border: $(i)px; }
+  .brdT-$(i) { border-top-width: $(i)px; }
+  .brdR-$(i) { border-right-width: $(i)px; }
+  .brdB-$(i) { border-bottom-width: $(i)px; }
+  .brdL-$(i) { border-left-width: $(i)px; }
+
+  .radius-$(i) { border-radius: $(i)px; }
+
+  .radiusT-$(i) {
+    border-top-left-radius: $(i)px;
+    border-top-right-radius: $(i)px;
+  }
+
+  .radiusR-$(i) {
+    border-top-right-radius: $(i)px;
+    border-bottom-right-radius: $(i)px;
+  }
+
+  .radiusB-$(i) {
+    border-bottom-left-radius: $(i)px;
+    border-bottom-right-radius: $(i)px;
+  }
+
+  .radiusL-$(i) {
+    border-top-left-radius: $(i)px;
+    border-bottom-left-radius: $(i)px;
+  }
+}
 
 .circle { border-radius: 50%; }
