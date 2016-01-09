@@ -9,8 +9,8 @@
 .pos-f { position: fixed; }
 
 @for $i from 0 to 100 by 5 {
-  .t$(i) { top: $(i)px; }
-  .r$(i) { right: $(i)px; }
-  .b$(i) { bottom: $(i)px; }
-  .l$(i) { left: $(i)px; }
+  .t-$(i) { top: $(i)px; }
+  .r-$(i) { right: $(i)px; }
+  .b-$(i) { bottom: $(i)px; }
+  .l-$(i) { left: $(i)px; }
 }
