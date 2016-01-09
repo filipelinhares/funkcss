@@ -4,11 +4,6 @@
 @import 'base-table';
 @import 'base-type';
 
-/* # ========== Colors */
-@import 'colors';
-@import 'colors-background';
-@import 'colors-border';
-
 /* # ========== Helpers */
 @import 'align';
 @import 'border';
@@ -24,3 +19,8 @@
 @import 'type';
 @import 'white-space';
 @import 'colors';
+
+/* # ========== Colors */
+@import 'colors';
+@import 'colors-background';
+@import 'colors-border';
