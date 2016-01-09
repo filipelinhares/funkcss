@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var postcss = require('gulp-postcss');
 var rename = require('gulp-rename');
 var shrink = require('gulp-cssshrink');
+var del = require('del');
 
 var postCSSArray = [
   require('postcss-partial-import')(),
@@ -13,7 +14,11 @@ var postCSSArray = [
   require('postcss-nested')()
 ];
 
-gulp.task('postcss', function () {
+gulp.task('clean', function() {
+  return del(['dist']);
+});
+
+gulp.task('postcss', ['clean'], function () {
   return gulp.src(['lib/funk.css', 'lib/funk-components.css'])
     .pipe(postcss(postCSSArray))
     .pipe(gulp.dest('dist/'))
