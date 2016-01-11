@@ -1,0 +1,11 @@
+/*
+
+  OBJECT-FIT HELPERS
+
+*/
+
+.of-ct { object-fit: contain; }
+.of-cv { object-fit: cover; }
+.of-f { object-fit: fill; }
+.of-n { object-fit: none; }
+.of-sd { object-fit: scale-down; }
