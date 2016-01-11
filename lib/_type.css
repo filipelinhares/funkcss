@@ -45,3 +45,8 @@
   text-transform: none;
   letter-spacing: normal;
 }
+
+.reset-font-size {
+  line-height: 1ex;
+  height: 1ex;
+}
