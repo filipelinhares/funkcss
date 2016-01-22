@@ -1,0 +1,110 @@
+/*
+
+  SPACING HELPERS
+
+  - T - top
+  - R - right
+  - B - bottom
+  - L - left
+
+  .m = margin
+  .p = padding
+
+*/
+
+@for $i from 0 to 30 by 5 {
+  .mX-a { margin-left: auto; margin-right: auto; }
+  .m-$(i) { margin: $(i)px; }
+  .mT-$(i) { margin-top: $(i)px; }
+  .mR-$(i) { margin-right: $(i)px; }
+  .mB-$(i) { margin-bottom: $(i)px; }
+  .mL-$(i) { margin-left: $(i)px; }
+
+  .mY-$(i) {
+    margin-top: $(i)px;
+    margin-bottom: $(i)px;
+  }
+  .mX-$(i) {
+    margin-left: $(i)px;
+    margin-right: $(i)px;
+  }
+
+  .p-$(i) { padding: $(i)px; }
+  .pT-$(i) { padding-top: $(i)px; }
+  .pR-$(i) { padding-right: $(i)px; }
+  .pB-$(i) { padding-bottom: $(i)px; }
+  .pL-$(i) { padding-Left: $(i)px; }
+  .pY-$(i) {
+    padding-top: $(i)px;
+    padding-bottom: $(i)px;
+  }
+  .pX-$(i) {
+    padding-left: $(i)px;
+    padding-right: $(i)px;
+  }
+}
+
+@for $i from 40 to 100 by 10 {
+  .mX-a { margin-left: auto; margin-right: auto; }
+  .m-$(i) { margin: $(i)px; }
+  .mT-$(i) { margin-top: $(i)px; }
+  .mR-$(i) { margin-right: $(i)px; }
+  .mB-$(i) { margin-bottom: $(i)px; }
+  .mL-$(i) { margin-left: $(i)px; }
+
+  .mY-$(i) {
+    margin-top: $(i)px;
+    margin-bottom: $(i)px;
+  }
+  .mX-$(i) {
+    margin-left: $(i)px;
+    margin-right: $(i)px;
+  }
+
+  .p-$(i) { padding: $(i)px; }
+  .pT-$(i) { padding-top: $(i)px; }
+  .pR-$(i) { padding-right: $(i)px; }
+  .pB-$(i) { padding-bottom: $(i)px; }
+  .pL-$(i) { padding-Left: $(i)px; }
+  .pY-$(i) {
+    padding-top: $(i)px;
+    padding-bottom: $(i)px;
+  }
+  .pX-$(i) {
+    padding-left: $(i)px;
+    padding-right: $(i)px;
+  }
+}
+
+/* # ========== Default gaps */
+
+@for $i from 1 to 4 {
+  .m-$(i) { margin: var(--gap-$(i)) }
+  .mT-$(i) { margin-top: var(--gap-$(i)) }
+  .mR-$(i) { margin-right: var(--gap-$(i)) }
+  .mB-$(i) { margin-bottom: var(--gap-$(i)) }
+  .mL-$(i) { margin-left: var(--gap-$(i)) }
+
+  .mY-$(i) {
+    margin-top: var(--gap-$(i));
+    margin-bottom: var(--gap-$(i));
+  }
+  .mX-$(i) {
+    margin-left: var(--gap-$(i));
+    margin-right: var(--gap-$(i));
+  }
+
+  .p-$(i) { padding: var(--gap-$(i)); }
+  .pT-$(i) { padding-top: var(--gap-$(i)); }
+  .pR-$(i) { padding-right: var(--gap-$(i)); }
+  .pB-$(i) { padding-bottom: var(--gap-$(i)); }
+  .pL-$(i) { padding-Left: var(--gap-$(i)); }
+  .pY-$(i) {
+    padding-top: var(--gap-$(i));
+    padding-bottom: var(--gap-$(i));
+  }
+  .pX-$(i) {
+    padding-left: var(--gap-$(i));
+    padding-right: var(--gap-$(i));
+  }
+}
