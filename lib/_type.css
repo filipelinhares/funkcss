@@ -19,9 +19,10 @@
 .tt-l { text-transform: lowercase; }
 .tt-c { text-transform: capitalize; }
 
-.fw-b { font-weight: 700; }
+.fw-300 { font-weight: 300; } /* light */
+.fw-600 { font-weight: 600; } /* semi-bold */
+.fw-700 { font-weight: 700; } /* bold */
 .fw-n { font-weight: normal; }
-.fw-t { font-weight: 300; }
 
 .fs-i { font-style: italic; }
 .fs-o { font-style: oblique; }

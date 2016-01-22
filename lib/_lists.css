@@ -12,10 +12,10 @@
 .lsp-o { list-style-position: outside; }
 
 .ls-n { list-style: none;}
-.ls-c {list-style-type: circle;}
-.ls-s {list-style-type: square;}
-.ls-u {list-style-type: upper-roman;}
-.ls-l {list-style-type: lower-alpha;}
+.ls-c { list-style-type: circle;}
+.ls-s { list-style-type: square;}
+.ls-u { list-style-type: upper-roman;}
+.ls-l { list-style-type: lower-alpha;}
 
 .list-inline {
   > li {

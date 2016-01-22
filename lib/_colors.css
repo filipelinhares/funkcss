@@ -1,27 +1,27 @@
 /*
 
-  COLORS HELPERS by @mrmrs - http://clrs.cc/
+  COLOR HELPERS by @mrmrs - http://clrs.cc/
 
 */
 
-.fg-navy {       color: var(--navy);    }
-.fg-blue {       color: var(--blue);    }
-.fg-aqua {       color: var(--aqua);    }
-.fg-teal {       color: var(--teal);    }
-.fg-olive {      color: var(--olive);   }
-.fg-green {      color: var(--green);   }
-.fg-lime {       color: var(--lime);    }
+.fg-navy { color: var(--navy); }
+.fg-blue { color: var(--blue); }
+.fg-aqua { color: var(--aqua); }
+.fg-teal { color: var(--teal); }
+.fg-olive { color: var(--olive); }
+.fg-green { color: var(--green); }
+.fg-lime { color: var(--lime); }
 
-.fg-yellow {     color: var(--yellow);  }
-.fg-orange {     color: var(--orange);  }
-.fg-red {        color: var(--red);     }
-.fg-fuchsia {    color: var(--fuchsia); }
-.fg-purple {     color: var(--purple);  }
-.fg-maroon {     color: var(--maroon);  }
+.fg-yellow { color: var(--yellow); }
+.fg-orange { color: var(--orange); }
+.fg-red { color: var(--red); }
+.fg-fuchsia { color: var(--fuchsia); }
+.fg-purple { color: var(--purple); }
+.fg-maroon { color: var(--maroon); }
 
-.fg-white {      color: var(--white);   }
-.fg-silver {     color: var(--silver);  }
-.fg-gray {       color: var(--gray);    }
-.fg-black {      color: var(--black);   }
+.fg-white { color: var(--white); }
+.fg-silver { color: var(--silver); }
+.fg-gray { color: var(--gray); }
+.fg-black { color: var(--black); }
 
 .muted { opacity: .5 }
