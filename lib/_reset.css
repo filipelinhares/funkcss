@@ -4,9 +4,17 @@
 
 */
 
-body { margin: 0 }
-img, canvas, iframe, video, svg, select, textarea { max-width: 100%; }
-svg { max-height: 100% }
+body { margin: 0; }
+
+img,
+canvas,
+iframe,
+video,
+svg,
+select,
+textarea { max-width: 100%; }
+
+svg { max-height: 100%; }
 
 .reset {
   margin: 0;

@@ -15,13 +15,13 @@
 .font-jumbo { font-size: var(--font-scale-jumbo); }
 
 :root {
-  --font-scale-micro: .5rem;
-  --font-scale-smallest: .7rem;
-  --font-scale-smaller: .75rem;
-  --font-scale-small: .875rem;
+  --font-scale-micro: 0.5rem;
+  --font-scale-smallest: 0.7rem;
+  --font-scale-smaller: 0.75rem;
+  --font-scale-small: 0.875rem;
   --font-scale-base: 1rem;
   --font-scale-large: 1.125rem;
   --font-scale-larger: 1.25rem;
   --font-scale-largest: 1.5rem;
-  --font-scale-jumbo: 2rem
+  --font-scale-jumbo: 2rem;
 }

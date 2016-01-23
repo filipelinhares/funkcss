@@ -17,7 +17,7 @@
   &:disabled,
   .is-disabled {
     background-color: var(--darken-2);
-    opacity: .5;
+    opacity: 0.5;
   }
 
   &:read-only:not(select),
@@ -55,11 +55,11 @@
 
 :root {
   --field-styled-radius: 4px;
-  --field-styled-focus: color(var(--blue) a(.5));
+  --field-styled-focus: color(var(--blue) a(0.5));
   --field-success-color: var(--green);
-  --field-success-focus: color(var(--green) a(.5));
+  --field-success-focus: color(var(--green) a(0.5));
   --field-warning-color: var(--yellow);
-  --field-warning-focus: color(var(--yellow) a(.5));
+  --field-warning-focus: color(var(--yellow) a(0.5));
   --field-error-color: var(--red);
-  --field-error-focus: color(var(--red) a(.5));
+  --field-error-focus: color(var(--red) a(0.5));
 }

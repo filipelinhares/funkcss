@@ -24,4 +24,4 @@
 .fg-gray { color: var(--gray); }
 .fg-black { color: var(--black); }
 
-.muted { opacity: .5 }
+.muted { opacity: 0.5; }

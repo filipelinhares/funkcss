@@ -9,7 +9,7 @@
 }
 
 /* This is the tooltip bubble */
-.tooltip:after {
+.tooltip::after {
   position: absolute;
   z-index: var(--z-scale-9);
   display: none;
@@ -27,7 +27,7 @@
 }
 
 /* This is the tooltip arrow */
-.tooltip:before {
+.tooltip::before {
   position: absolute;
   z-index: var(--z-scale-9);
   display: none;
@@ -35,7 +35,7 @@
   height: 0;
   color: var(--tooltip-background);
   pointer-events: none;
-  content: '';
+  content: "";
   border: 5px solid transparent;
 }
 
@@ -43,8 +43,8 @@
 .tooltip:hover,
 .tooltip:active,
 .tooltip:focus {
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     display: inline-block;
     text-decoration: none;
   }
@@ -53,7 +53,7 @@
 .tooltip-multiline:hover,
 .tooltip-multiline:active,
 .tooltip-multiline:focus {
-  &:after {
+  &::after {
     display: table-cell;
   }
 }
@@ -62,13 +62,13 @@
 .tooltipB,
 .tooltipBR,
 .tooltipBL {
-  &:after {
+  &::after {
     top: 100%;
     right: 50%;
     margin-top: 5px;
   }
 
-  &:before {
+  &::before {
     top: auto;
     right: 50%;
     bottom: -5px;
@@ -78,14 +78,14 @@
 }
 
 .tooltipBR {
-  &:after {
+  &::after {
     right: auto;
     left: 50%;
     margin-left: -15px;
   }
 }
 
-.tooltipBL:after {
+.tooltipBL::after {
   margin-right: -15px;
 }
 
@@ -93,13 +93,13 @@
 .tooltipT,
 .tooltipTR,
 .tooltipTL {
-  &:after {
+  &::after {
     right: 50%;
     bottom: 100%;
     margin-bottom: 5px;
   }
 
-  &:before {
+  &::before {
     top: -5px;
     right: 50%;
     bottom: auto;
@@ -109,33 +109,33 @@
 }
 
 .tooltipTR {
-  &:after {
+  &::after {
     right: auto;
     left: 50%;
     margin-left: -15px;
   }
 }
 
-.tooltipTL:after {
+.tooltipTL::after {
   margin-right: -15px;
 }
 
 /* Move the tooltip body to the center of the object. */
-.tooltipB:after,
-.tooltipT:after {
+.tooltipB::after,
+.tooltipT::after {
   transform: translateX(50%);
 }
 
 /* Tooltipped to the left */
 .tooltipL {
-  &:after {
+  &::after {
     right: 100%;
     bottom: 50%;
     margin-right: 5px;
     transform: translateY(50%);
   }
 
-  &:before {
+  &::before {
     top: 50%;
     bottom: 50%;
     left: -5px;
@@ -146,14 +146,14 @@
 
 /* tooltip to the right */
 .tooltipR {
-  &:after {
+  &::after {
     bottom: 50%;
     left: 100%;
     margin-left: 5px;
     transform: translateY(50%);
   }
 
-  &:before {
+  &::before {
     top: 50%;
     right: -5px;
     bottom: 50%;
@@ -168,7 +168,7 @@
 /* The downside is you cannot preformat the text with newlines and `[w,e]` */
 /* are always `var(--multiline-max-width)` wide. */
 .tooltip-multiline {
-  &:after {
+  &::after {
     width: max-content;
     max-width: var(--multiline-max-width);
     word-break: break-word;
@@ -177,22 +177,22 @@
     border-collapse: separate;
   }
 
-  &.tooltipB:after,
-  &.tooltipT:after {
+  &.tooltipB::after,
+  &.tooltipT::after {
     right: auto;
     left: 50%;
     transform: translateX(-50%);
   }
 
-  &.tooltipL:after,
-  &.tooltipR:after {
+  &.tooltipL::after,
+  &.tooltipR::after {
     right: 100%;
   }
 }
 
-@media screen and (min-width:0\0) {
+@media screen and (min-width: 0\0) {
   /* IE9 and IE10 rule sets go here */
-  .tooltip-multiline:after {
+  .tooltip-multiline::after {
     width: var(--multiline-max-width);
   }
 }
@@ -201,13 +201,13 @@
 /* */
 /* Always show the tooltip. */
 .is-tooltiped {
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     display: inline-block;
   }
 
   &.tooltip-multiline {
-    &:after {
+    &::after {
       display: table-cell;
     }
   }

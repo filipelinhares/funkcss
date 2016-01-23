@@ -26,10 +26,10 @@
   box-shadow: 0 1px 2px var(--darken-1);
 
   /* the arrow */
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     position: absolute;
-    content: '';
+    content: "";
     border: 10px solid transparent;
     border-bottom-color: var(--white);
     top: -4px;
@@ -38,9 +38,9 @@
     z-index: var(--z-scale-4);
   }
 
-  &:after {
+  &::after {
     z-index: var(--z-scale-2);
     border-bottom-color: var(--darken-2);
-    top: -5px
+    top: -5px;
   }
 }

@@ -22,12 +22,11 @@ td {
   line-height: inherit;
 }
 
-th { vertical-align: bottom }
-td { vertical-align: top }
-
+th { vertical-align: bottom; }
+td { vertical-align: top; }
 
 :root {
   --table-header-font-weight: 700;
   --table-cell-padding-x: var(--gap-2);
-  --table-cell-padding-y: .25rem;
+  --table-cell-padding-y: 0.25rem;
 }

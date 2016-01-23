@@ -18,7 +18,8 @@ a:hover {
   text-decoration: var(--link-hover-text-decoration);
 }
 
-pre, code {
+pre,
+code {
   background-color: var(--pre-background-color);
   border-radius: var(--pre-border-radius);
 }

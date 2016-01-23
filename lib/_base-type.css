@@ -43,22 +43,22 @@ pre {
   overflow-x: auto;
 }
 
-h1 { font-size: var(--h1) }
-h2 { font-size: var(--h2) }
-h3 { font-size: var(--h3) }
-h4 { font-size: var(--h4) }
-h5 { font-size: var(--h5) }
-h6 { font-size: var(--h6) }
+h1 { font-size: var(--h1); }
+h2 { font-size: var(--h2); }
+h3 { font-size: var(--h3); }
+h4 { font-size: var(--h4); }
+h5 { font-size: var(--h5); }
+h6 { font-size: var(--h6); }
 
 :root {
-  --font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  --font-family: "Helvetica Neue", "Helvetica", sans-serif;
   --line-height: 1.5;
   --body-font-size: 100%;
   --paragraph-margin-top: 0;
   --paragraph-margin-bottom: var(--gap-2);
   --list-margin-top: 0;
   --list-margin-bottom: var(--gap-2);
-  --monospace-font-family: 'Source Code Pro', Consolas, monospace;
+  --monospace-font-family: "Source Code Pro", "Consolas", monospace;
   --pre-font-size: inherit;
   --pre-margin-top: 0;
   --pre-margin-bottom: var(--gap-2);
@@ -71,11 +71,11 @@ h6 { font-size: var(--h6) }
   --heading-font-family: var(--font-family);
   --heading-font-weight: 700;
   --heading-margin-top: 1em;
-  --heading-margin-bottom: .5em;
+  --heading-margin-bottom: 0.5em;
   --h1: 2rem;
   --h2: 1.5rem;
   --h3: 1.25rem;
   --h4: 1rem;
-  --h5: .875rem;
-  --h6: .75rem;
+  --h5: 0.875rem;
+  --h6: 0.75rem;
 }

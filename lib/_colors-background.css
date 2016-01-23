@@ -24,12 +24,12 @@
 .bg-gray { background-color: var(--gray); }
 .bg-black { background-color: var(--black); }
 
-.bg-darken-1 { background-color: var(--darken-1) }
-.bg-darken-2 { background-color: var(--darken-2) }
-.bg-darken-3 { background-color: var(--darken-3) }
-.bg-darken-4 { background-color: var(--darken-4) }
+.bg-darken-1 { background-color: var(--darken-1); }
+.bg-darken-2 { background-color: var(--darken-2); }
+.bg-darken-3 { background-color: var(--darken-3); }
+.bg-darken-4 { background-color: var(--darken-4); }
 
-.bg-lighten-1 { background-color: var(--lighten-1) }
-.bg-lighten-2 { background-color: var(--lighten-2) }
-.bg-lighten-3 { background-color: var(--lighten-3) }
-.bg-lighten-4 { background-color: var(--lighten-4) }
+.bg-lighten-1 { background-color: var(--lighten-1); }
+.bg-lighten-2 { background-color: var(--lighten-2); }
+.bg-lighten-3 { background-color: var(--lighten-3); }
+.bg-lighten-4 { background-color: var(--lighten-4); }

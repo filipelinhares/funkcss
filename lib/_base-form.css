@@ -51,8 +51,8 @@ textarea {
 
 :root {
   --form-field-border-radius: 4px;
-  --form-field-paddingY: .5rem;
-  --form-field-paddingX: .5rem;
+  --form-field-paddingY: 0.5rem;
+  --form-field-paddingX: 0.5rem;
   --form-field-height: 2.25rem; /* 36px */
   --form-field-font-size: 1rem;
 }

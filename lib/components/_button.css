@@ -34,7 +34,6 @@
   padding: 0;
 }
 
-
 :root {
   --button-color: inherit;
   --button-background-color: transparent;
@@ -42,6 +41,6 @@
   --button-font-weight: normal;
   --button-text-transform: none;
   --button-line-height: 1.125rem;
-  --button-paddingY: .5rem;
+  --button-paddingY: 0.5rem;
   --button-paddingX: 1rem;
 }

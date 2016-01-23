@@ -10,7 +10,7 @@
     border-bottom-width: var(--border-width);
     border-bottom-style: solid;
     border-bottom-color: var(--border-color);
-}
+  }
 
   tr:last-child td {
     border-bottom: 0;

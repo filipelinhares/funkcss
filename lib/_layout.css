@@ -31,15 +31,15 @@
 .fl-r { float: right; }
 
 .clearfix {
-  /**zoom: 1; // Old IEs*/
+  /* zoom: 1; // Old IEs */
 
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     content: "";
     display: table;
   }
 
-  &:after {
+  &::after {
     clear: both;
   }
 }

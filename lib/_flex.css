@@ -26,7 +26,7 @@
   min-height: 0; /* 1 */
 }
 
-.flx-none { flex: none }
+.flx-none { flex: none; }
 .flx-grow { flex-grow: 1; }
 .flx-shrink { flex-shrink: 1; }
 

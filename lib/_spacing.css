@@ -79,11 +79,11 @@
 /* # ========== Default gaps */
 
 @for $i from 1 to 4 {
-  .m-$(i) { margin: var(--gap-$(i)) }
-  .mT-$(i) { margin-top: var(--gap-$(i)) }
-  .mR-$(i) { margin-right: var(--gap-$(i)) }
-  .mB-$(i) { margin-bottom: var(--gap-$(i)) }
-  .mL-$(i) { margin-left: var(--gap-$(i)) }
+  .m-$(i) { margin: var(--gap-$(i)); }
+  .mT-$(i) { margin-top: var(--gap-$(i)); }
+  .mR-$(i) { margin-right: var(--gap-$(i)); }
+  .mB-$(i) { margin-bottom: var(--gap-$(i)); }
+  .mL-$(i) { margin-left: var(--gap-$(i)); }
 
   .mY-$(i) {
     margin-top: var(--gap-$(i));
