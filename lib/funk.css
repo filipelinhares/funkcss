@@ -6,6 +6,7 @@
 
 /* # ========== Helpers */
 @import "align";
+@import "backgrounds";
 @import "border";
 @import "defaults";
 @import "flex";

@@ -16,3 +16,7 @@
 .bgp-r { background-position: right; }
 .bgp-l { background-position: left; }
 .bgp-b { background-position: bottom; }
+
+.bgr-n { background-repeat: no-repeat; }
+.bgr-y { background-repeat: repeat-y; }
+.bgr-x { background-repeat: repeat-x; }
