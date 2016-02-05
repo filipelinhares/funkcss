@@ -28,7 +28,7 @@
 .brdL { border-left: var(--border-width) solid var(--border-color); }
 
 @for $i from 0 to 5 {
-  .brd-$(i) { border: $(i)px; }
+  .brd-$(i) { border-width: $(i)px; }
   .brdT-$(i) { border-top-width: $(i)px; }
   .brdR-$(i) { border-right-width: $(i)px; }
   .brdB-$(i) { border-bottom-width: $(i)px; }
