@@ -4,13 +4,50 @@
 
 */
 
+@custom-selector :--input-text input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"];
+
+input,
+select,
+textarea,
+fieldset {
+  font-size: inherit;
+  font-family: inherit;
+  outline: 0;
+}
+
+fieldset {
+  border-color: var(--darken-2);
+  border-width: 1px;
+}
+
+label {
+  vertical-align: middle;
+}
+
+select {
+  line-height: 1.75;
+}
+
+select:not([multiple]) {
+  vertical-align: middle;
+}
+
+textarea {
+  line-height: 1.75;
+}
+
+:--input-text {
+  display: inline-block;
+  -webkit-appearance: none;
+}
+
 .field {
   border-radius: var(--field-styled-radius);
   border: 1px solid var(--darken-2);
 
   &:focus,
   &.is-focused {
-    border-color: var(--blue);
+    border-color: #0074d9;
     box-shadow: 0 0 0 2px var(--field-styled-focus);
   }
 
@@ -54,12 +91,17 @@
 }
 
 :root {
+  --form-field-border-radius: 4px;
+  --form-field-paddingY: 0.5rem;
+  --form-field-paddingX: 0.5rem;
+  --form-field-font-size: 1rem;
+
   --field-styled-radius: 4px;
-  --field-styled-focus: color(var(--blue) a(0.5));
-  --field-success-color: var(--green);
-  --field-success-focus: color(var(--green) a(0.5));
-  --field-warning-color: var(--yellow);
-  --field-warning-focus: color(var(--yellow) a(0.5));
-  --field-error-color: var(--red);
-  --field-error-focus: color(var(--red) a(0.5));
+  --field-styled-focus: color(#0074d9 a(0.5));
+  --field-success-color: #2ecc40;
+  --field-success-focus: color(#2ecc40 a(0.5));
+  --field-warning-color: #ffdc00;
+  --field-warning-focus: color(#ffdc00 a(0.5));
+  --field-error-color: #ff4136;
+  --field-error-focus: color(#ff4136 a(0.5));
 }

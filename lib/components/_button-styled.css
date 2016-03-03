@@ -5,8 +5,6 @@
 */
 
 .btn-styled {
-  background: var(--button-styled-background);
-  color: var(--button-styled-color);
   border-radius: var(--button-styled-radius);
 }
 
@@ -28,6 +26,4 @@
 
 :root {
   --button-styled-radius: 4px;
-  --button-styled-background: var(--blue);
-  --button-styled-color: var(--white);
 }

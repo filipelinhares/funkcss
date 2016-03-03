@@ -33,7 +33,7 @@
     position: absolute;
     content: "";
     border: 10px solid transparent;
-    border-bottom-color: var(--white);
+    border-bottom-color: #fff;
     top: -4px;
     bottom: 100%;
     left: 10px;

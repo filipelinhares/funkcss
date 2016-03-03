@@ -4,12 +4,31 @@
 
 */
 
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+th {
+  text-align: left;
+  font-weight: var(--table-header-font-weight);
+}
+
+th,
+td {
+  padding: var(--table-cell-padding-y) var(--table-cell-padding-x);
+  line-height: inherit;
+}
+
+th { vertical-align: bottom; }
+td { vertical-align: top; }
+
 .table-bordered {
   th,
   td {
-    border-bottom-width: var(--border-width);
+    border-bottom-width: var(1px, --border-width);
     border-bottom-style: solid;
-    border-bottom-color: var(--border-color);
+    border-bottom-color: var(--darken-2);
   }
 
   tr:last-child td {
@@ -27,4 +46,10 @@
   tr:hover {
     background: var(--darken-1);
   }
+}
+
+:root {
+  --table-header-font-weight: 700;
+  --table-cell-padding-x: 1rem;
+  --table-cell-padding-y: 0.25rem;
 }
