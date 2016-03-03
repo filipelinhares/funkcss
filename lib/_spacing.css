@@ -94,11 +94,17 @@
     margin-right: var(--gap-$(i));
   }
 
+  .mX-$(i)n {
+    margin-left: -var(--gap-$(i));
+    margin-right: -var(--gap-$(i));
+  }
+
   .p-$(i) { padding: var(--gap-$(i)); }
   .pT-$(i) { padding-top: var(--gap-$(i)); }
   .pR-$(i) { padding-right: var(--gap-$(i)); }
   .pB-$(i) { padding-bottom: var(--gap-$(i)); }
   .pL-$(i) { padding-Left: var(--gap-$(i)); }
+
   .pY-$(i) {
     padding-top: var(--gap-$(i));
     padding-bottom: var(--gap-$(i));
@@ -107,4 +113,9 @@
     padding-left: var(--gap-$(i));
     padding-right: var(--gap-$(i));
   }
+}
+
+.reset {
+  margin: 0;
+  padding: 0;
 }

@@ -6,24 +6,24 @@
 
 .d-f { display: flex; }
 
-.flx-w { flex-wrap: wrap; }
-.flx-c { flex-direction: column; }
+.fw-w { flex-wrap: wrap; }
+.fd-c { flex-direction: column; }
 
 .ai-c { align-items: center; }
-.ai-s { align-items: flex-start; }
-.ai-e { align-items: flex-end; }
+.ai-fs { align-items: flex-start; }
+.ai-fe { align-items: flex-end; }
 .ai-s { align-items: stretch; }
 
-.jc-s { justify-content: flex-start; }
-.jc-e { justify-content: flex-end; }
+.jc-fs { justify-content: flex-start; }
+.jc-fe { justify-content: flex-end; }
 .jc-c { justify-content: center; }
 .jc-sb { justify-content: space-between; }
 .jc-sa { justify-content: space-around; }
 
 .flx-auto {
   flex: 1 1 auto;
-  min-width: 0; /* 1 */
-  min-height: 0; /* 1 */
+  min-width: 0;
+  min-height: 0;
 }
 
 .flx-none { flex: none; }

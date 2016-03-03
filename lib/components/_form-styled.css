@@ -9,13 +9,13 @@
   border: 1px solid var(--darken-2);
 
   &:focus,
-  .is-focused {
+  &.is-focused {
     border-color: var(--blue);
     box-shadow: 0 0 0 2px var(--field-styled-focus);
   }
 
   &:disabled,
-  .is-disabled {
+  &.is-disabled {
     background-color: var(--darken-2);
     opacity: 0.5;
   }

@@ -15,8 +15,3 @@ select,
 textarea { max-width: 100%; }
 
 svg { max-height: 100%; }
-
-.reset {
-  margin: 0;
-  padding: 0;
-}

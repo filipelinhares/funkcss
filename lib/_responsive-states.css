@@ -4,24 +4,6 @@
 
 */
 
-.sm-show,
-.md-show,
-.lg-show {
-  display: none;
-}
-
-@media (--breakpoint-sm) {
-  .sm-show { display: block !important; }
-}
-
-@media (--breakpoint-md) {
-  .md-show { display: block !important; }
-}
-
-@media (--breakpoint-lg) {
-  .lg-show { display: block !important; }
-}
-
 @media (--breakpoint-sm) {
   .sm-hide { display: none !important; }
 }
@@ -33,8 +15,6 @@
 @media (--breakpoint-lg) {
   .lg-hide { display: none !important; }
 }
-
-.display-none { display: none !important; }
 
 .hide {
   position: absolute !important;
