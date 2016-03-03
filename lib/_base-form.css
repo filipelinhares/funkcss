@@ -12,9 +12,6 @@ textarea,
 fieldset {
   font-family: var(--font-family);
   font-size: var(--form-field-font-size);
-  box-sizing: border-box;
-  margin-top: 0;
-  margin-bottom: 0;
   outline: 0;
 }
 
@@ -29,23 +26,18 @@ label {
 
 select {
   line-height: 1.75;
-  padding: var(--form-field-paddingY) var(--form-field-paddingX);
 }
 
 select:not([multiple]) {
-  height: var(--form-field-height);
   vertical-align: middle;
 }
 
 textarea {
   line-height: 1.75;
-  padding: var(--form-field-paddingY) var(--form-field-paddingX);
 }
 
 :--input-text {
   display: inline-block;
-  height: var(--form-field-height);
-  padding: var(--form-field-paddingY) var(--form-field-paddingX);
   -webkit-appearance: none;
 }
 
@@ -53,6 +45,5 @@ textarea {
   --form-field-border-radius: 4px;
   --form-field-paddingY: 0.5rem;
   --form-field-paddingX: 0.5rem;
-  --form-field-height: 2.25rem; /* 36px */
   --form-field-font-size: 1rem;
 }
