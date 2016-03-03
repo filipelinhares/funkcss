@@ -23,3 +23,7 @@
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
+
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 60em);

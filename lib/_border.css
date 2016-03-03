@@ -57,3 +57,8 @@
 }
 
 .circle { border-radius: 50%; }
+
+:root {
+  --border-width: 1px;
+  --border-color: rgba(0, 0, 0, 0.0625);
+}
