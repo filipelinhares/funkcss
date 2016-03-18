@@ -7,7 +7,6 @@ var del = require('del');
 var postCSSArray = [
   require('postcss-partial-import')(),
   require('postcss-for')(),
-  require('postcss-focus')(),
   require('autoprefixer')(),
   require('cssnext')(),
   require('postcss-reporter')(),
