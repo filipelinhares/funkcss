@@ -2,9 +2,6 @@
 
   BACKGROUND SIZE AND POSITION HELPERS
 
-  .bgs = background-size
-  .bgp = background-position
-
 */
 
 .bgs-cv { background-size: cover; }

@@ -2,14 +2,6 @@
 
   SPACING HELPERS
 
-  - T - top
-  - R - right
-  - B - bottom
-  - L - left
-
-  .m = margin
-  .p = padding
-
 */
 
 @for $i from 0 to 30 by 5 {

@@ -2,13 +2,6 @@
 
   BORDER HELPERS
 
-  - .brd = border
-
-  - T - top
-  - R - right
-  - B - bottom
-  - L - left
-
 */
 
 .brd-s { border-style: solid; }
