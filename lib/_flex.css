@@ -31,5 +31,5 @@
 .flx-shrink { flex-shrink: 1; }
 
 @for $i from 0 to 10 {
-  .order$(i) { order: $i; }
+  .order-$(i) { order: $i; }
 }
