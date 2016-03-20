@@ -1,7 +1,7 @@
 ## [v0.2.0]
 > March 9, 2016
 
-- **Emmet selectors:** For easier maintanance and sanity of people learning this library, now, all the possible emmeter selectors that can become a class are being generated automatically from a script. This means some classes will change in order to normalize them with the ones at [emmet abbreviations list](http://docs.emmet.io/cheat-sheet/).
+- **Emmet selectors:** For easier maintanance and sanity of people learning this library, now, all the possible emmet selectors - that can become a css class - will be generated automatically from a script. This means some classes will change in order to normalize them with the ones at [emmet abbreviations list](http://docs.emmet.io/cheat-sheet/).
 
 The breaking changes are mostly with the following classes:
 ```css
