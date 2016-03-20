@@ -1,4 +1,4 @@
-## [v2.0.1]
+## [v0.2.0]
 > March 9, 2016
 
 - **Emmet selectors:** For easier maintanance and sanity of people learning this library, now, all the possible emmeter selectors that can become a class are being generated automatically from a script. This means some classes will change in order to normalize them with the ones at [emmet abbreviations list](http://docs.emmet.io/cheat-sheet/).
