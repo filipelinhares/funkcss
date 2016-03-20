@@ -11,16 +11,6 @@
 
 */
 
-.brd-s { border-style: solid; }
-.brd-dt { border-style: dotted; }
-.brd-ds { border-style: dashed; }
-.brd-db { border-style: double; }
-.brd-s { border-style: solid; }
-.brd-g { border-style: groove; }
-.brd-r { border-style: ridge; }
-.brd-i { border-style: inset; }
-.brd-o { border-style: outset; }
-
 .brd { border: var(--border-width) solid var(--border-color); }
 .brdT { border-top: var(--border-width) solid var(--border-color); }
 .brdR { border-right: var(--border-width) solid var(--border-color); }
