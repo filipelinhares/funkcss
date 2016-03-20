@@ -1,5 +1,6 @@
 const performRequest = require('./request')
 const U = require('./utils')
+const writeCSSClass = require('./writers').writeCSSClass
 
 performRequest(json => {
   const snippets = U.evalObjectValue('css.snippets', json)
@@ -9,6 +10,7 @@ performRequest(json => {
       if(matched) final[key] = matched[0]
       return final
     }, {}, snippets)
-    console.log(validAttrs)
+    const css = writeCSSClass(validAttrs)
+    console.log(css)
   }
 })
