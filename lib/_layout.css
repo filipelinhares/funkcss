@@ -8,19 +8,19 @@
 .d-ib { display: inline-block; }
 .d-i { display: inline; }
 
-.d-t { display: table; }
-.d-tc { display: table-cell; }
+.d-tb { display: table; }
+.d-tbc { display: table-cell; }
 
-.ovf-h { overflow: hidden; }
-.ovf-a { overflow: auto; }
-.ovf-s { overflow: scroll; }
+.ov-h { overflow: hidden; }
+.ov-a { overflow: auto; }
+.ov-s { overflow: scroll; }
 
-.ovfY-h { overflow-y: hidden; }
-.ovfX-h { overflow-x: hidden; }
-.ovfY-a { overflow-y: auto; }
-.ovfX-a { overflow-x: auto; }
-.ovfY-s { overflow-y: scroll; }
-.ovfX-s { overflow-x: scroll; }
+.ovY-h { overflow-y: hidden; }
+.ovX-h { overflow-x: hidden; }
+.ovY-a { overflow-y: auto; }
+.ovX-a { overflow-x: auto; }
+.ovY-s { overflow-y: scroll; }
+.ovX-s { overflow-x: scroll; }
 
 .fl-l { float: left; }
 .fl-r { float: right; }

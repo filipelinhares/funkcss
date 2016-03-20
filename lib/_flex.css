@@ -6,8 +6,8 @@
 
 .d-f { display: flex; }
 
-.fw-w { flex-wrap: wrap; }
-.fd-c { flex-direction: column; }
+.fxw-w { flex-wrap: wrap; }
+.fxd-c { flex-direction: column; }
 
 .ai-c { align-items: center; }
 .ai-fs { align-items: flex-start; }

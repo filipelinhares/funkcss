@@ -4,6 +4,6 @@
 
 */
 
-.wb-n { word-break: normal; }
-.wb-b { word-break: break-all; }
-.wb-k { word-break: keep-all; }
+.wob-n { word-break: normal; }
+.wob-ba { word-break: break-all; }
+.wob-k { word-break: keep-all; }

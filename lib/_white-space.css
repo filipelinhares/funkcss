@@ -4,6 +4,6 @@
 
 */
 
-.ws-nw { white-space: nowrap; }
-.ws-p { white-space: pre; }
-.ws-n { white-space: normal; }
+.whs-nw { white-space: nowrap; }
+.whs-p { white-space: pre; }
+.whs-n { white-space: normal; }
