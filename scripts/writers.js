@@ -11,18 +11,14 @@ const generateCSSString = (object) => {
 `
   return reduce((final, value, key) => (
     `${final}
-.${key.replace(':', '-')} { ${value.replace(':', ': ')} }`
+.${key.replace(/\:/g, '-')} { ${value.replace(':', ': ')} }`
   ), initial, object)
 }
 
-writeCSSFile = (object) => {
+module.exports = object => {
   const FILE_DIR = path.join(__dirname, "../lib")
   const FILE_NAME = '_emmet-selectors.css'
   const css = generateCSSString(object)
   fs.writeFileSync([FILE_DIR, FILE_NAME].join('/'), css);
   console.log('UPDATED: Emmet selectors')
-}
-
-module.exports = {
-  writeCSSFile: writeCSSFile,
 }

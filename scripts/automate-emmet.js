@@ -1,6 +1,6 @@
 const performRequest = require('./request')
 const U = require('./utils')
-const writeCSSFile = require('./writers').writeCSSFile
+const writeCSSFile = require('./writers')
 
 performRequest(json => {
   const snippets = U.evalObjectValue('css.snippets', json)
