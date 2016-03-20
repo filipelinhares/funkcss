@@ -1,17 +1,10 @@
 {
-  "name": "funk",
-  "version": "0.1.0",
+  "name": "funkcss",
+  "version": "0.2.0",
   "description": "Functional CSS",
-  "main": "gulpfile.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/filipelinhares/funk.git"
+    "url": "git+https://github.com/filipelinhares/funkcss.git"
   },
   "keywords": [
     "css",
@@ -20,9 +13,9 @@
   "author": "Filipe Linhares <lip.linhares@gmail.com> (http://filipelinhares.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/filipelinhares/funk/issues"
+    "url": "https://github.com/filipelinhares/funkcss/issues"
   },
-  "homepage": "https://github.com/filipelinhares/funk#readme",
+  "homepage": "https://github.com/filipelinhares/funkcss#readme",
   "devDependencies": {
     "autoprefixer": "^6.1.2",
     "cssnext": "^1.8.4",
