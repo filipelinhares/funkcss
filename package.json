@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/filipelinhares/funkcss.git"
   },
+  "scripts": {
+    "build:emmet": "node scripts/automate-emmet.js"
+  },
   "keywords": [
     "css",
     "functional"

@@ -4,27 +4,11 @@
 
 */
 
-.ta-c { text-align: center; }
-.ta-l { text-align: left; }
-.ta-r { text-align: right; }
-
-.tt-n { text-transform: none; }
-.tt-u { text-transform: uppercase; letter-spacing: 0.12em; }
-.tt-l { text-transform: lowercase; }
-.tt-c { text-transform: capitalize; }
+.tt-u { letter-spacing: 0.12em; }
 
 .fw-300 { font-weight: 300; /* light */ }
 .fw-600 { font-weight: 600; /* semi-bold */ }
 .fw-700 { font-weight: 700; /* bold */ }
-.fw-n { font-weight: normal; }
-
-.fs-i { font-style: italic; }
-.fs-o { font-style: oblique; }
-
-.td-n { text-decoration: none; }
-.td-o { text-decoration: overline; }
-.td-lt { text-decoration: line-through; }
-.td-u { text-decoration: underline; }
 
 .truncate {
   max-width: 100%;

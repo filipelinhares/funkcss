@@ -4,11 +4,7 @@
 
 */
 
-.pos-s { position: static; }
 .pos-st { position: sticky; }
-.pos-r { position: relative; }
-.pos-a { position: absolute; }
-.pos-f { position: fixed; }
 
 @for $i from 0 to 30 by 5 {
   .t-$(i) { top: $(i)px; }

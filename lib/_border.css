@@ -4,16 +4,6 @@
 
 */
 
-.bds-s { border-style: solid; }
-.bds-dt { border-style: dotted; }
-.bds-ds { border-style: dashed; }
-.bds-db { border-style: double; }
-.bds-g { border-style: groove; }
-.bds-r { border-style: ridge; }
-.bds-i { border-style: inset; }
-.bds-o { border-style: outset; }
-
-.bd-n { border: none; }
 .bd { border: var(--border-width) solid var(--border-color); }
 .bdT { border-top: var(--border-width) solid var(--border-color); }
 .bdR { border-right: var(--border-width) solid var(--border-color); }
