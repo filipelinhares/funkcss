@@ -2,11 +2,28 @@
 
   LAYOUT HELPERS
 
-  .ovf = overflow
-  .fl = float
-  .z = z-index
-
 */
+
+.d-b { display: block; }
+.d-ib { display: inline-block; }
+.d-i { display: inline; }
+
+.d-tb { display: table; }
+.d-tbc { display: table-cell; }
+
+.ov-h { overflow: hidden; }
+.ov-a { overflow: auto; }
+.ov-s { overflow: scroll; }
+
+.ovY-h { overflow-y: hidden; }
+.ovX-h { overflow-x: hidden; }
+.ovY-a { overflow-y: auto; }
+.ovX-a { overflow-x: auto; }
+.ovY-s { overflow-y: scroll; }
+.ovX-s { overflow-x: scroll; }
+
+.fl-l { float: left; }
+.fl-r { float: right; }
 
 .clearfix {
   /* zoom: 1; // Old IEs */
@@ -23,7 +40,7 @@
 }
 
 @for $i from 0 to 9 {
-  .z$(i) { z-index: var(--z-scale-$(i)); }
+  .z-$(i) { z-index: var(--z-scale-$(i)); }
 }
 
 :root {

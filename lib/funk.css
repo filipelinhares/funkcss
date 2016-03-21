@@ -1,27 +1,17 @@
-/* # ========== Base styles */
-@import "base-color";
-@import "base-form";
-@import "base-table";
-@import "base-type";
-
 /* # ========== Helpers */
 @import "align";
+@import "backgrounds";
 @import "border";
-@import "defaults";
-@import "emmet-selectors";
 @import "flex";
 @import "layout";
 @import "lists";
 @import "objects";
 @import "position";
-@import "reset";
+@import "resize";
 @import "sizes";
 @import "spacing";
 @import "type-scale";
 @import "type";
 @import "white-space";
-
-/* # ========== Colors */
-@import "colors";
-@import "colors-background";
-@import "colors-border";
+@import "word-break";
+@import "word-wrap";

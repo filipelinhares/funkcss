@@ -2,18 +2,9 @@
 
   SPACING HELPERS
 
-  - T - top
-  - R - right
-  - B - bottom
-  - L - left
-
-  .m = margin
-  .p = padding
-
 */
 
 @for $i from 0 to 30 by 5 {
-  .mX-a { margin-left: auto; margin-right: auto; }
   .m-$(i) { margin: $(i)px; }
   .mT-$(i) { margin-top: $(i)px; }
   .mR-$(i) { margin-right: $(i)px; }
@@ -45,7 +36,6 @@
 }
 
 @for $i from 40 to 100 by 10 {
-  .mX-a { margin-left: auto; margin-right: auto; }
   .m-$(i) { margin: $(i)px; }
   .mT-$(i) { margin-top: $(i)px; }
   .mR-$(i) { margin-right: $(i)px; }
@@ -94,11 +84,17 @@
     margin-right: var(--gap-$(i));
   }
 
+  .mX-$(i)n {
+    margin-left: -var(--gap-$(i));
+    margin-right: -var(--gap-$(i));
+  }
+
   .p-$(i) { padding: var(--gap-$(i)); }
   .pT-$(i) { padding-top: var(--gap-$(i)); }
   .pR-$(i) { padding-right: var(--gap-$(i)); }
   .pB-$(i) { padding-bottom: var(--gap-$(i)); }
   .pL-$(i) { padding-Left: var(--gap-$(i)); }
+
   .pY-$(i) {
     padding-top: var(--gap-$(i));
     padding-bottom: var(--gap-$(i));
@@ -107,4 +103,18 @@
     padding-left: var(--gap-$(i));
     padding-right: var(--gap-$(i));
   }
+}
+
+.mX-a { margin-left: auto; margin-right: auto; }
+
+.reset {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gap-1: 0.5rem;
+  --gap-2: 1rem;
+  --gap-3: 2rem;
+  --gap-4: 4rem;
 }

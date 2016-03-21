@@ -2,27 +2,30 @@
 
   BORDER HELPERS
 
-  - .brd = border
-
-  - T - top
-  - R - right
-  - B - bottom
-  - L - left
-
 */
 
-.brd { border: var(--border-width) solid var(--border-color); }
-.brdT { border-top: var(--border-width) solid var(--border-color); }
-.brdR { border-right: var(--border-width) solid var(--border-color); }
-.brdB { border-bottom: var(--border-width) solid var(--border-color); }
-.brdL { border-left: var(--border-width) solid var(--border-color); }
+.bds-s { border-style: solid; }
+.bds-dt { border-style: dotted; }
+.bds-ds { border-style: dashed; }
+.bds-db { border-style: double; }
+.bds-g { border-style: groove; }
+.bds-r { border-style: ridge; }
+.bds-i { border-style: inset; }
+.bds-o { border-style: outset; }
+
+.bd-n { border: none; }
+.bd { border: var(--border-width) solid var(--border-color); }
+.bdT { border-top: var(--border-width) solid var(--border-color); }
+.bdR { border-right: var(--border-width) solid var(--border-color); }
+.bdB { border-bottom: var(--border-width) solid var(--border-color); }
+.bdL { border-left: var(--border-width) solid var(--border-color); }
 
 @for $i from 0 to 5 {
-  .brd-$(i) { border: $(i)px; }
-  .brdT-$(i) { border-top-width: $(i)px; }
-  .brdR-$(i) { border-right-width: $(i)px; }
-  .brdB-$(i) { border-bottom-width: $(i)px; }
-  .brdL-$(i) { border-left-width: $(i)px; }
+  .bd-$(i) { border-width: $(i)px; }
+  .bdT-$(i) { border-top-width: $(i)px; }
+  .bdR-$(i) { border-right-width: $(i)px; }
+  .bdB-$(i) { border-bottom-width: $(i)px; }
+  .bdL-$(i) { border-left-width: $(i)px; }
 
   .radius-$(i) { border-radius: $(i)px; }
 
@@ -48,3 +51,8 @@
 }
 
 .circle { border-radius: 50%; }
+
+:root {
+  --border-width: 1px;
+  --border-color: rgba(0, 0, 0, 0.0625);
+}

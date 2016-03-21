@@ -2,9 +2,6 @@
 
   BACKGROUND SIZE AND POSITION HELPERS
 
-  .bgs = background-size
-  .bgp = background-position
-
 */
 
 .bgs-full { background-size: 100% 100%; }
@@ -14,3 +11,7 @@
 .bgp-r { background-position: right; }
 .bgp-l { background-position: left; }
 .bgp-b { background-position: bottom; }
+
+.bgr-n { background-repeat: no-repeat; }
+.bgr-y { background-repeat: repeat-y; }
+.bgr-x { background-repeat: repeat-x; }

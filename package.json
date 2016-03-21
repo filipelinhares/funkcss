@@ -1,18 +1,10 @@
 {
-  "name": "funk",
-  "version": "0.2.0",
+  "name": "funkcss",
+  "version": "0.3.0",
   "description": "Functional CSS",
-  "main": "gulpfile.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "test",
-    "build:emmet": "node scripts/automate-emmet.js"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/filipelinhares/funk.git"
+    "url": "git+https://github.com/filipelinhares/funkcss.git"
   },
   "keywords": [
     "css",
@@ -21,9 +13,9 @@
   "author": "Filipe Linhares <lip.linhares@gmail.com> (http://filipelinhares.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/filipelinhares/funk/issues"
+    "url": "https://github.com/filipelinhares/funkcss/issues"
   },
-  "homepage": "https://github.com/filipelinhares/funk#readme",
+  "homepage": "https://github.com/filipelinhares/funkcss#readme",
   "devDependencies": {
     "autoprefixer": "^6.1.2",
     "cssnext": "^1.8.4",
@@ -32,7 +24,6 @@
     "gulp-cssshrink": "^0.1.5",
     "gulp-postcss": "^6.0.1",
     "gulp-rename": "^1.2.2",
-    "postcss-focus": "^1.0.0",
     "postcss-for": "^2.0.1",
     "postcss-nested": "^1.0.0",
     "postcss-partial-import": "^1.3.0",

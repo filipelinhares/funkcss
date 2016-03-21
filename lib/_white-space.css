@@ -1,0 +1,9 @@
+/*
+
+  WHITE SPACE HELPERS
+
+*/
+
+.whs-nw { white-space: nowrap; }
+.whs-p { white-space: pre; }
+.whs-n { white-space: normal; }
