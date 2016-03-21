@@ -1,15 +1,16 @@
 const performRequest = require('./request')
-const U = require('./utils')
+const reduce = require('./utils').reduce
 const writeCSSFile = require('./writers')
 
 performRequest(json => {
-  const snippets = U.evalObjectValue('css.snippets', json)
-  if(snippets) {
-    const validAttrs = U.reduce((final, value, key) => {
+  try {
+    const validAttrs = reduce((final, value, key) => {
       const matched = value.match(/[a-z\-]+\:[a-z\-]+\;/)
       if(matched) final[key] = matched[0]
       return final
-    }, {}, snippets)
+    }, {}, json.css.snippets)
     writeCSSFile(validAttrs)
+  } catch (err) {
+    console.log('Unable to Update', err)
   }
 })
