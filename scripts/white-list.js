@@ -1,3 +1,9 @@
+/*
+  Items with ':' at the end will match the exact key word, otherwise
+  they'll match only the start. For instance: 'overflow' will match 'overflow-y'
+  while 'border:' will not match 'border-style'
+*/
+
 module.exports = [
   'align-items:',
   'background-size:',
