@@ -4,22 +4,6 @@
 
 */
 
-.d-f { display: flex; }
-
-.fxw-w { flex-wrap: wrap; }
-.fxd-c { flex-direction: column; }
-
-.ai-c { align-items: center; }
-.ai-fs { align-items: flex-start; }
-.ai-fe { align-items: flex-end; }
-.ai-s { align-items: stretch; }
-
-.jc-fs { justify-content: flex-start; }
-.jc-fe { justify-content: flex-end; }
-.jc-c { justify-content: center; }
-.jc-sb { justify-content: space-between; }
-.jc-sa { justify-content: space-around; }
-
 .flx-auto {
   flex: 1 1 auto;
   min-width: 0;
