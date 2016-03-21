@@ -10,6 +10,7 @@
 .ai-c { align-items: center; }
 .ai-b { align-items: baseline; }
 .ai-s { align-items: stretch; }
+
 /*
 
   BACKGROUND-SIZE
@@ -19,6 +20,7 @@
 .bgsz-a { background-size: auto; }
 .bgsz-ct { background-size: contain; }
 .bgsz-cv { background-size: cover; }
+
 /*
 
   BORDER
@@ -26,6 +28,7 @@
 */
 
 .bd-n { border: none; }
+
 /*
 
   BORDER-STYLE
@@ -45,6 +48,7 @@
 .bds-r { border-style: ridge; }
 .bds-i { border-style: inset; }
 .bds-o { border-style: outset; }
+
 /*
 
   DISPLAY
@@ -75,6 +79,7 @@
 .d-rbbg { display: ruby-base-group; }
 .d-rbt { display: ruby-text; }
 .d-rbtg { display: ruby-text-group; }
+
 /*
 
   FLEX-DIRECTION
@@ -88,6 +93,28 @@
 .fxw-n { flex-wrap: nowrap; }
 .fxw-w { flex-wrap: wrap; }
 .fxw-wr { flex-wrap: wrap-reverse; }
+
+/*
+
+  FONT-STYLE
+
+*/
+
+.fs-n { font-style: normal; }
+.fs-i { font-style: italic; }
+.fs-o { font-style: oblique; }
+
+/*
+
+  FONT-WEIGHT
+
+*/
+
+.fw-n { font-weight: normal; }
+.fw-b { font-weight: bold; }
+.fw-br { font-weight: bolder; }
+.fw-lr { font-weight: lighter; }
+
 /*
 
   FLOAT
@@ -97,6 +124,7 @@
 .fl-n { float: none; }
 .fl-l { float: left; }
 .fl-r { float: right; }
+
 /*
 
   JUSTIFY-CONTENT
@@ -108,6 +136,7 @@
 .jc-c { justify-content: center; }
 .jc-sb { justify-content: space-between; }
 .jc-sa { justify-content: space-around; }
+
 /*
 
   LIST-STYLE
@@ -115,6 +144,18 @@
 */
 
 .lis-n { list-style: none; }
+.lisp-i { list-style-position: inside; }
+.lisp-o { list-style-position: outside; }
+.list-n { list-style-type: none; }
+.list-d { list-style-type: disc; }
+.list-c { list-style-type: circle; }
+.list-s { list-style-type: square; }
+.list-dc { list-style-type: decimal; }
+.list-dclz { list-style-type: decimal-leading-zero; }
+.list-lr { list-style-type: lower-roman; }
+.list-ur { list-style-type: upper-roman; }
+.lisi-n { list-style-image: none; }
+
 /*
 
   OVERFLOW
@@ -138,6 +179,7 @@
 .ovs-p { overflow-style: panner; }
 .ovs-m { overflow-style: move; }
 .ovs-mq { overflow-style: marquee; }
+
 /*
 
   POSITION
@@ -148,6 +190,7 @@
 .pos-a { position: absolute; }
 .pos-r { position: relative; }
 .pos-f { position: fixed; }
+
 /*
 
   RESIZE
@@ -158,6 +201,7 @@
 .rsz-b { resize: both; }
 .rsz-h { resize: horizontal; }
 .rsz-v { resize: vertical; }
+
 /*
 
   TEXT-ALIGN
@@ -168,6 +212,7 @@
 .ta-c { text-align: center; }
 .ta-r { text-align: right; }
 .ta-j { text-align: justify; }
+
 /*
 
   TEXT-DECORATION
@@ -178,6 +223,7 @@
 .td-u { text-decoration: underline; }
 .td-o { text-decoration: overline; }
 .td-l { text-decoration: line-through; }
+
 /*
 
   TEXT-TRANSFORM
@@ -188,6 +234,7 @@
 .tt-c { text-transform: capitalize; }
 .tt-u { text-transform: uppercase; }
 .tt-l { text-transform: lowercase; }
+
 /*
 
   WHITE-SPACE
@@ -199,6 +246,7 @@
 .whs-nw { white-space: nowrap; }
 .whs-pw { white-space: pre-wrap; }
 .whs-pl { white-space: pre-line; }
+
 /*
 
   WORD-BREAK
@@ -208,6 +256,7 @@
 .wob-n { word-break: normal; }
 .wob-k { word-break: keep-all; }
 .wob-ba { word-break: break-all; }
+
 /*
 
   WORD-WRAP
