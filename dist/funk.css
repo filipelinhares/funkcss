@@ -528,6 +528,9 @@
 .fl-r {
     float: right
 }
+.fl-n {
+    float: none
+}
 /* zoom: 1; // Old IEs */
 .clearfix:before,
   .clearfix:after {
