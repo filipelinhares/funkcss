@@ -9,10 +9,17 @@
 .fxw-w { flex-wrap: wrap; }
 .fxd-c { flex-direction: column; }
 
-.ai-c { align-items: center; }
 .ai-fs { align-items: flex-start; }
 .ai-fe { align-items: flex-end; }
+.ai-c { align-items: center; }
+.ai-b { align-items: baseline; }
 .ai-s { align-items: stretch; }
+
+.as-fs { align-self: flex-start; }
+.as-fe { align-self: flex-end; }
+.as-c { align-self: center; }
+.as-b { align-self: baseline; }
+.as-s { align-self: stretch; }
 
 .jc-fs { justify-content: flex-start; }
 .jc-fe { justify-content: flex-end; }
