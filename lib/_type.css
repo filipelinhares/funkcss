@@ -9,14 +9,14 @@
 .ta-r { text-align: right; }
 
 .tt-n { text-transform: none; }
-.tt-u { text-transform: uppercase; letter-spacing: 0.12em; }
+.tt-u { text-transform: uppercase; }
 .tt-l { text-transform: lowercase; }
 .tt-c { text-transform: capitalize; }
 
 .fw-300 { font-weight: 300; /* light */ }
 .fw-600 { font-weight: 600; /* semi-bold */ }
 .fw-700 { font-weight: 700; /* bold */ }
-.fw-n { font-weight: normal; }
+.fw-500 { font-weight: 500; /* normal */ }
 
 .fs-i { font-style: italic; }
 .fs-o { font-style: oblique; }
