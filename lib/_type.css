@@ -26,6 +26,10 @@
 .td-lt { text-decoration: line-through; }
 .td-u { text-decoration: underline; }
 
+.va-t { vertical-align: top; }
+.va-m { vertical-align: center; }
+.va-b { vertical-align: bottom; }
+
 .truncate {
   max-width: 100%;
   overflow: hidden;
