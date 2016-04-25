@@ -40,6 +40,26 @@
   }
 }
 
+.pos-s { position: static; }
+.pos-st { position: sticky; }
+.pos-r { position: relative; }
+.pos-a { position: absolute; }
+.pos-f { position: fixed; }
+
+@for $i from 0 to 30 by 5 {
+  .t-$(i) { top: $(i)px; }
+  .r-$(i) { right: $(i)px; }
+  .b-$(i) { bottom: $(i)px; }
+  .l-$(i) { left: $(i)px; }
+}
+
+@for $i from 40 to 100 by 10 {
+  .t-$(i) { top: $(i)px; }
+  .r-$(i) { right: $(i)px; }
+  .b-$(i) { bottom: $(i)px; }
+  .l-$(i) { left: $(i)px; }
+}
+
 @for $i from 0 to 9 {
   .z-$(i) { z-index: var(--z-scale-$(i)); }
 }
