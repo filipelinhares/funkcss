@@ -1,9 +1,0 @@
-/*
-
-  WORD BREAK HELPERS
-
-*/
-
-.wob-n { word-break: normal; }
-.wob-ba { word-break: break-all; }
-.wob-k { word-break: keep-all; }

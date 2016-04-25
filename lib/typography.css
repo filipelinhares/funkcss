@@ -30,6 +30,17 @@
 .va-m { vertical-align: center; }
 .va-b { vertical-align: bottom; }
 
+.whs-nw { white-space: nowrap; }
+.whs-p { white-space: pre; }
+.whs-n { white-space: normal; }
+
+.wob-n { word-break: normal; }
+.wob-ba { word-break: break-all; }
+.wob-k { word-break: keep-all; }
+
+.wow-bw { word-wrap: break-word; }
+.wow-n { word-wrap: normal; }
+
 .truncate {
   max-width: 100%;
   overflow: hidden;
