@@ -1,11 +1,28 @@
 /*
 
-  OBJECT-FIT HELPERS
+  OBJECTS HELPERS
 
 */
+
+.bgs-cv { background-size: cover; }
+.bgs-ct { background-size: contain; }
+.bgs-full { background-size: 100% 100%; }
+
+.bgp-c { background-position: center; }
+.bgp-t { background-position: top; }
+.bgp-r { background-position: right; }
+.bgp-l { background-position: left; }
+.bgp-b { background-position: bottom; }
+
+.bgr-n { background-repeat: no-repeat; }
+.bgr-y { background-repeat: repeat-y; }
+.bgr-x { background-repeat: repeat-x; }
 
 .of-ct { object-fit: contain; }
 .of-cv { object-fit: cover; }
 .of-f { object-fit: fill; }
 .of-n { object-fit: none; }
 .of-sd { object-fit: scale-down; }
+
+.rsz-v { resize: vertical; }
+.rsz-h { resize: horizontal; }
