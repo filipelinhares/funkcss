@@ -2,6 +2,8 @@
 	<img src="images/logo.png" alt="funkcss">
 </h1>
 
+[![funkcss npm](https://img.shields.io/npm/v/funkcss.svg)](https://www.npmjs.com/package/funkcss) [![Build Status](https://travis-ci.org/filipelinhares/funkcss.svg?branch=master)](https://travis-ci.org/filipelinhares/funkcss)
+
 ## Development
 
 ```
