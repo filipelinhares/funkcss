@@ -27,24 +27,24 @@
   .bdB-$(i) { border-bottom-width: $(i)px; }
   .bdL-$(i) { border-left-width: $(i)px; }
 
-  .radius-$(i) { border-radius: $(i)px; }
+  .bdrs-$(i) { border-radius: $(i)px; }
 
-  .radiusT-$(i) {
+  .bdrsT-$(i) {
     border-top-left-radius: $(i)px;
     border-top-right-radius: $(i)px;
   }
 
-  .radiusR-$(i) {
+  .bdrsR-$(i) {
     border-top-right-radius: $(i)px;
     border-bottom-right-radius: $(i)px;
   }
 
-  .radiusB-$(i) {
+  .bdrsB-$(i) {
     border-bottom-left-radius: $(i)px;
     border-bottom-right-radius: $(i)px;
   }
 
-  .radiusL-$(i) {
+  .bdrsL-$(i) {
     border-top-left-radius: $(i)px;
     border-bottom-left-radius: $(i)px;
   }
