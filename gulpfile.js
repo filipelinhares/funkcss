@@ -7,8 +7,8 @@ var postCSSArray = [
   require('postcss-nested')(),
   require("postcss-import")(),
   require("postcss-url")(),
-  require("postcss-cssnext")(),
   require('postcss-for')(),
+  require("postcss-cssnext")(),
   require("cssnano")(),
   require('postcss-reporter')()
 ];
