@@ -2,13 +2,6 @@
 	<img src="images/logo.png" alt="funkcss">
 </h1>
 
-
-## Funktional CSS
-
-[Principles](docs/design.md)  
-[Basic Example](http://filipelinhares.github.io/funkcss/)  
-Docs - (comming soon)
-
 ## Development
 
 ```
@@ -17,9 +10,7 @@ gulp watch
 ```
 **Other gulp comands**
 
-- `gulp postcss` - compile lib to dist
-- `gulp min` - minify dist
-- `gulp` - both together
+- `gulp` - compile to `dist`
 
 
 ## License

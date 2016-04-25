@@ -27,7 +27,7 @@
 .fl-n { float: none; }
 
 .clearfix {
-  /* zoom: 1; // Old IEs */
+  zoom: 1; /* Old IEs */
 
   &::before,
   &::after {
