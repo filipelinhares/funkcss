@@ -13,8 +13,3 @@
 .list-u { list-style-type: upper-roman; }
 .list-l { list-style-type: lower-alpha; }
 
-.list-inline {
-  > li {
-    display: inline-block;
-  }
-}
