@@ -28,6 +28,7 @@
     "postcss-cssnext": "^2.5.2",
     "postcss-for": "^2.0.1",
     "postcss-import": "^8.1.0",
+    "postcss-importantly": "0.0.7",
     "postcss-nested": "^1.0.0",
     "postcss-reporter": "^1.3.3",
     "postcss-url": "^5.1.1",

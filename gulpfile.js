@@ -18,16 +18,28 @@ gulp.task('clean', function() {
 });
 
 gulp.task('postcss', ['clean'], function () {
-  return gulp.src('lib/funk.css')
+  return gulp.src('lib/index.css')
     .pipe(postcss(postCSSArray))
     .pipe(rename({
+      basename: 'funkcss',
+      suffix: '.min'
+    }))
+    .pipe(gulp.dest('dist/'))
+});
+
+gulp.task('immutable', ['clean' ,'postcss'], function () {
+  return gulp.src('dist/funkcss.min.css')
+    .pipe(postcss([require('postcss-importantly')]))
+    .pipe(rename({
+      prefix: 'funkcss-',
+      basename: 'immutable',
       suffix: '.min'
     }))
     .pipe(gulp.dest('dist/'))
 });
 
 gulp.task('watch', function() {
-  gulp.watch('lib/*.css', ['postcss']);
+  gulp.watch('lib/*.css', ['postcss', 'immutable']);
 });
 
-gulp.task('default', ['postcss'] )
+gulp.task('default', ['postcss', 'immutable'] )
