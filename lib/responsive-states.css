@@ -5,23 +5,29 @@
 */
 
 @media (--breakpoint-sm) {
-  .sm-hide { display: none !important; }
+  .sm-hide {
+    display: none !important;
+    visibility: hidden;
+  }
 }
 
 @media (--breakpoint-md) {
-  .md-hide { display: none !important; }
+  .md-hide {
+    display: none !important;
+    visibility: hidden;
+  }
 }
 
 @media (--breakpoint-lg) {
-  .lg-hide { display: none !important; }
+  .lg-hide {
+    display: none !important;
+    visibility: hidden;
+  }
 }
 
 .hide {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
+  display: none;
+  visibility: hidden;
 }
 
 @custom-media --breakpoint-sm (min-width: 40em);
