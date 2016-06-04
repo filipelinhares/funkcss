@@ -27,16 +27,17 @@
 .jc-sb { justify-content: space-between; }
 .jc-sa { justify-content: space-around; }
 
-.flx-auto {
+.fx-auto {
   flex: 1 1 auto;
   min-width: 0;
   min-height: 0;
 }
 
-.flx-none { flex: none; }
-.flx-grow { flex-grow: 1; }
-.flx-shrink { flex-shrink: 1; }
+.fx-none { flex: none; }
+.fx-1 { flex: 1; }
+.fx-grow { flex-grow: 1; }
+.fx-shrink { flex-shrink: 1; }
 
 @for $i from 0 to 10 {
-  .order-$(i) { order: $i; }
+  .ord-$(i) { order: $i; }
 }

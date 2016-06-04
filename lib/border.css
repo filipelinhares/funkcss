@@ -21,11 +21,11 @@
 .bdL { border-left: var(--border-width) solid var(--border-color); }
 
 @for $i from 0 to 5 {
-  .bd-$(i) { border-width: $(i)px; }
-  .bdT-$(i) { border-top-width: $(i)px; }
-  .bdR-$(i) { border-right-width: $(i)px; }
-  .bdB-$(i) { border-bottom-width: $(i)px; }
-  .bdL-$(i) { border-left-width: $(i)px; }
+  .bdw-$(i) { border-width: $(i)px; }
+  .bdwT-$(i) { border-top-width: $(i)px; }
+  .bdwR-$(i) { border-right-width: $(i)px; }
+  .bdwB-$(i) { border-bottom-width: $(i)px; }
+  .bdwL-$(i) { border-left-width: $(i)px; }
 
   .bdrs-$(i) { border-radius: $(i)px; }
 
