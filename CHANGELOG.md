@@ -1,3 +1,18 @@
+## [v0.5.1]
+#### Added:
+- Travis CI
+- funkcss-immutable
+
+#### Changed:
+- Border width prefix - `.bd` ⇢ `.bdw`
+- Flex width prefix - `.flx` ⇢ `.fx`
+- Order width prefix - `.order` ⇢ `.ord`
+- Responsive state helpers more a11y, [see](https://github.com/filipelinhares/funkcss/commit/a46605679f59b0b3fa1c41ade0bcd429d47ae040)
+
+#### Removed:
+- Align helpers. Use flexbox instead
+- Remove `.list-inline`. You can use d-ib in each list item if you want the same effect
+
 ## [v0.4.0]
 #### Added:
 - `float: none;` ⇢ `.fl-n`
