@@ -9,7 +9,7 @@ var postCSSArray = [
   require("postcss-url")(),
   require('postcss-for')(),
   require("postcss-cssnext")(),
-  require("cssnano")(),
+  require("cssnano")({ autoprefixer: false }),
   require('postcss-reporter')()
 ];
 
