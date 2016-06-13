@@ -1,3 +1,15 @@
+## [v0.6.1]
+#### Added:
+- Adds default gaps to layout helpers (top, left, bottom, right)
+Now you can use `.m-1` which extend to `margin-top: .5rem;`
+
+#### Changed:
+- Update stylelint rules
+
+#### Removed:
+- Removes rem fallback from cssnext
+- Removes autoprefixer from cssnane (duplicated, we already have from cssnext)
+
 ## [v0.5.1]
 #### Added:
 - Travis CI
