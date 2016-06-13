@@ -45,6 +45,13 @@
 .pos-a { position: absolute; }
 .pos-f { position: fixed; }
 
+@for $i from 1 to 4 {
+  .t-$(i) { top: var(--gap-$(i)); }
+  .r-$(i) { right: var(--gap-$(i)); }
+  .b-$(i) { bottom: var(--gap-$(i)); }
+  .l-$(i) { left: var(--gap-$(i)); }
+}
+
 @for $i from 0 to 30 by 5 {
   .t-$(i) { top: $(i)px; }
   .r-$(i) { right: $(i)px; }
