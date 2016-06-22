@@ -16,4 +16,7 @@
 .w-90 { width: 90%; }
 .w-100 { width: 100%; }
 
+.maw-100 { max-width: 100%; }
+
 .h-100 { height: 100vh; }
+
