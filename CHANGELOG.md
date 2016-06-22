@@ -1,3 +1,24 @@
+## [v0.7.0]
+#### Added:
+
+- `maw-100` ⇢ `max-width: 100%`
+- `.tov-e` ⇢  `text-overflow: ellipsis`
+- Responsive state helpers
+
+#### Changed:
+- `.circle` ⇢ `.bdrs-50`
+- `.fx-grow` ⇢ `.fxg-1`
+- `.fx-shrink` ⇢ `.fxs-1`
+- `.fx-none` ⇢ `.fx-n`
+- `.flx-auto` ⇢ `.fxb-a`
+_Flex auto now is just_ `flex-basis: auto`
+
+#### Removed:
+- `.reset`
+- `.truncate`
+- `.reset-font`
+- `.reset-font-size`
+
 ## [v0.6.1]
 #### Added:
 - Adds default gaps to layout helpers (top, left, bottom, right)
@@ -31,7 +52,6 @@ Now you can use `.m-1` which extend to `margin-top: .5rem;`
 - `align-items: baseline;` ⇢ `.ai-b`
 - `align-self` [helpers](lib/flex.css#L18)
 - `vertical-align` [helpers](lib/typography.css#L29)
-
 
 #### Changed:
 - Border radius prefix - `.radius` ⇢ `.bdrs`
