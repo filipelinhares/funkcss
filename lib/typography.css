@@ -41,22 +41,4 @@
 .wow-bw { word-wrap: break-word; }
 .wow-n { word-wrap: normal; }
 
-.truncate {
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  word-wrap: normal;
-}
-
-.reset-font {
-  text-decoration: none;
-  text-shadow: none;
-  text-transform: none;
-  letter-spacing: normal;
-}
-
-.reset-font-size {
-  line-height: 1ex;
-  height: 1ex;
-}
+.tov-e { text-overflow: ellipsis; }

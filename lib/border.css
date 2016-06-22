@@ -50,7 +50,7 @@
   }
 }
 
-.circle { border-radius: 50%; }
+.bdrs-50 { border-radius: 50%; }
 
 :root {
   --border-width: 1px;
