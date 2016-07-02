@@ -8,11 +8,16 @@
 .bgs-ct { background-size: contain; }
 .bgs-full { background-size: 100% 100%; }
 
-.bgp-c { background-position: center; }
-.bgp-t { background-position: top; }
-.bgp-r { background-position: right; }
-.bgp-l { background-position: left; }
-.bgp-b { background-position: bottom; }
+.bgpX-c { background-position-x: center; }
+.bgpX-t { background-position-x: top; }
+.bgpX-r { background-position-x: right; }
+.bgpX-l { background-position-x: left; }
+.bgpX-b { background-position-x: bottom; }
+.bgpY-c { background-position-y: center; }
+.bgpY-t { background-position-y: top; }
+.bgpY-r { background-position-y: right; }
+.bgpY-l { background-position-y: left; }
+.bgpY-b { background-position-y: bottom; }
 
 .bgr-n { background-repeat: no-repeat; }
 .bgr-y { background-repeat: repeat-y; }
