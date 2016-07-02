@@ -4,6 +4,7 @@
 
 */
 
+.d-n { display: none; }
 .d-b { display: block; }
 .d-ib { display: inline-block; }
 .d-i { display: inline; }
@@ -24,6 +25,10 @@
 .fl-l { float: left; }
 .fl-r { float: right; }
 .fl-n { float: none; }
+
+.va-t { vertical-align: top; }
+.va-m { vertical-align: center; }
+.va-b { vertical-align: bottom; }
 
 .clearfix {
   zoom: 1; /* Old IEs */

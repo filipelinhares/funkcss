@@ -13,6 +13,7 @@
 .tt-l { text-transform: lowercase; }
 .tt-c { text-transform: capitalize; }
 
+.fw-n { font-weight: none; }
 .fw-300 { font-weight: 300; /* light */ }
 .fw-600 { font-weight: 600; /* semi-bold */ }
 .fw-700 { font-weight: 700; /* bold */ }
@@ -25,10 +26,6 @@
 .td-o { text-decoration: overline; }
 .td-lt { text-decoration: line-through; }
 .td-u { text-decoration: underline; }
-
-.va-t { vertical-align: top; }
-.va-m { vertical-align: center; }
-.va-b { vertical-align: bottom; }
 
 .whs-nw { white-space: nowrap; }
 .whs-p { white-space: pre; }
