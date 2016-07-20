@@ -30,20 +30,6 @@
 .va-m { vertical-align: center; }
 .va-b { vertical-align: bottom; }
 
-.clearfix {
-  zoom: 1; /* Old IEs */
-
-  &::before,
-  &::after {
-    content: "";
-    display: table;
-  }
-
-  &::after {
-    clear: both;
-  }
-}
-
 .pos-s { position: static; }
 .pos-st { position: sticky; }
 .pos-r { position: relative; }
