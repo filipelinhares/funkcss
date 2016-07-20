@@ -13,12 +13,6 @@
 .tt-l { text-transform: lowercase; }
 .tt-c { text-transform: capitalize; }
 
-.fw-n { font-weight: none; }
-.fw-300 { font-weight: 300; /* light */ }
-.fw-600 { font-weight: 600; /* semi-bold */ }
-.fw-700 { font-weight: 700; /* bold */ }
-.fw-500 { font-weight: 500; /* normal */ }
-
 .fs-i { font-style: italic; }
 .fs-o { font-style: oblique; }
 
