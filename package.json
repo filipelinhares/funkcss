@@ -2,6 +2,8 @@
   "name": "funkcss",
   "version": "0.7.0",
   "description": "Functional CSS",
+  "style": "dist/funkcss.min.css",
+  "main": "dist/funkcss.min.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/filipelinhares/funkcss.git"
