@@ -7,7 +7,13 @@
 .d-f { display: flex; }
 
 .fxw-w { flex-wrap: wrap; }
+.fxw-wr { flex-wrap: wrap-reverse; }
+.fxw-nw { flex-wrap: nowrap; }
+
 .fxd-c { flex-direction: column; }
+.fxd-cr { flex-direction: column-reverse; }
+.fxd-r { flex-direction: row; }
+.fxd-rr { flex-direction: row-reverse; }
 
 .ai-fs { align-items: flex-start; }
 .ai-fe { align-items: flex-end; }
