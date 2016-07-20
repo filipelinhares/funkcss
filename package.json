@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/filipelinhares/funkcss#readme",
   "scripts": {
+    "setup": "npm install && gulp",
+    "watch": "gulp watch",
+    "compile": "gulp",
     "test": "stylelint lib/*.css"
+
   },
   "devDependencies": {
     "cssnano": "^3.5.2",
