@@ -36,6 +36,7 @@
 
 .bdrs-50 { border-radius: 50%; }
 
+.bds-n { border-style: none; }
 .bds-s { border-style: solid; }
 .bds-dt { border-style: dotted; }
 .bds-ds { border-style: dashed; }
@@ -50,8 +51,6 @@
 .bdR { border-right: var(--border-width) solid var(--border-color); }
 .bdB { border-bottom: var(--border-width) solid var(--border-color); }
 .bdL { border-left: var(--border-width) solid var(--border-color); }
-
-.bd-n { border: none; }
 
 :root {
   --border-width: 1px;
