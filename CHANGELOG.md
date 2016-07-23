@@ -1,9 +1,49 @@
+## [v0.8.0]
+
+:package: Now you can import funkcss as a npm module with [postcss-import](https://github.com/postcss/postcss-import) and similar tools.
+
+:wrench: New npm command for development:
+
+```
+$ npm run setup
+$ npm run watch
+$ npm run compile
+$ npm run test
+```
+
+#### Removing `font-weight` helper
+Seeing from the beggining, funkcss now is a more abstract library than it was in the past. With this release we're removing the last helper (`.fw-`) with a "*custom style*" (*custom style* is the style which changes between different projects and devs. Color and typography are a good example).
+**Why are we removing font weight helper?**
+- Each project has its own font family with different font weight.
+- Some people prefer `font-weight` with literal values (`.fw-bold`) instead of numbers (`.fw-700`).
+
+#### Added:
+- `.bgpX-*`, `.bgpY-*` ⇢ Background position y and x
+- `.d-n` ⇢ `display: none`
+- `.fw-n` ⇢ `font-weight: none`
+- `.fxw-wr` ⇢ `flex-wrap: wrap-reverse`
+- `.fxw-nw` ⇢ `flex-wrap: nowrap`
+- `.fxd-cr` ⇢ `flex-direction: column-reverse`
+- `.fxd-r` ⇢ `flex-direction: row`
+- `.fxd-rr` ⇢ `flex-direction: row-reverse`
+
+#### Changed:
+- Reorder border helpers
+- Move `vertical-align` helpers to layout file
+- `.bd-n` ⇢ `.bds-n`
+
+#### Removed:
+- `.clearfix`
+- `.fw-n`
+- `.fw-300`
+- `.fw-600`
+- `.fw-700`
+- `.fw-500`
+
 ## [v0.7.0]
 #### Added:
-
-- `maw-100` ⇢ `max-width: 100%`
+- `.maw-100` ⇢ `max-width: 100%`
 - `.tov-e` ⇢  `text-overflow: ellipsis`
-- Responsive state helpers
 
 #### Changed:
 - `.circle` ⇢ `.bdrs-50`
@@ -14,6 +54,7 @@
 _Flex auto now is just_ `flex-basis: auto`
 
 #### Removed:
+- Responsive state helpers
 - `.reset`
 - `.truncate`
 - `.reset-font`
