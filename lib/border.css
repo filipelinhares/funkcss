@@ -4,6 +4,12 @@
 
 */
 
+.bd { border: var(--border-width) solid var(--border-color); }
+.bdT { border-top: var(--border-width) solid var(--border-color); }
+.bdR { border-right: var(--border-width) solid var(--border-color); }
+.bdB { border-bottom: var(--border-width) solid var(--border-color); }
+.bdL { border-left: var(--border-width) solid var(--border-color); }
+
 @for $i from 0 to 5 {
   .bdw-$(i) { border-width: $(i)px; }
   .bdwT-$(i) { border-top-width: $(i)px; }
@@ -45,12 +51,6 @@
 .bds-r { border-style: ridge; }
 .bds-i { border-style: inset; }
 .bds-o { border-style: outset; }
-
-.bd { border: var(--border-width) solid var(--border-color); }
-.bdT { border-top: var(--border-width) solid var(--border-color); }
-.bdR { border-right: var(--border-width) solid var(--border-color); }
-.bdB { border-bottom: var(--border-width) solid var(--border-color); }
-.bdL { border-left: var(--border-width) solid var(--border-color); }
 
 :root {
   --border-width: 1px;

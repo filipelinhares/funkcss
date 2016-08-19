@@ -1,3 +1,8 @@
+## [v0.8.1]
+:wrench: Hotfix
+
+Change border helper (`.bd`) order in the file to be ovewrited by border width (`.bdw-`).
+
 ## [v0.8.0]
 
 :package: Now you can import funkcss as a npm module with [postcss-import](https://github.com/postcss/postcss-import) and similar tools.
