@@ -13,17 +13,8 @@ With immutable helpers it makes sure your style is applyed independent of contex
 ### Handly
 Following emmet naming convention: `.ta-c` is `text-align: center;` make it is easy to type.
 
-## Development
-
-```
-npm run setup
-npm run watch
-```
-**Other gulp comands**
-
-- `npm run compile`
-- `npm test`
-
+## Contributing
+Read our [contributing](CONTRIBUTING.md) guide if you're looking to contribute.
 
 ## License
 [MIT](LICENSE.md) © Filipe Linhares
