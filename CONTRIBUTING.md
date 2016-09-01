@@ -57,4 +57,4 @@ Before pushing make sure tests aren't broken.
 $ npm test
 ```
 
-[⇠ Back to home](github.com/filipelinhares/funkcss)
+[⇠ Back to home](https://github.com/filipelinhares/funkcss)
