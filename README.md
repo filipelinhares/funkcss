@@ -8,10 +8,10 @@
 Following strict yet simple conventions it's easy to extend funkcss to suit almost any project.
 
 ### No side-effects
-With immutable helpers it makes sure your style is applyed independent of context.
+With immutable helpers it will apply your style not matter in what context.
 
 ### Handly
-Following emmet naming convention: `.ta-c` is `text-align: center;` make it is easy to type.
+Following emmet naming convention: `.ta-c` is `text-align: center;` it is really easy and intuitive to type.
 
 ## Contributing
 Read our [contributing](CONTRIBUTING.md) guide if you're looking to contribute.
