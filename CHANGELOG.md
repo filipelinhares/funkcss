@@ -1,3 +1,20 @@
+## [v0.9.1]
+:star: New features and fixes
+
+#### Added:
+- `.d-if` ⇢ `display: inline-flex`
+- `.cur-p` ⇢ `cursor: pointer`
+- `.op-0` ⇢ `opacity: 0`
+- `.op-05` ⇢ `opacity: 0.5`
+- `.op-1` ⇢ `opacity: 1`
+- `.mT-a` ⇢ `margin-top: auto`
+- `.mR-a` ⇢ `margin-right: auto`
+- `.mB-a` ⇢ `margin-bottom: auto`
+- `.mL-a` ⇢ `margin-left: auto`
+
+#### Changed:
+- `.bgs-` ⇢ `bgsz-`
+
 ## [v0.8.1]
 :wrench: Hotfix
 
