@@ -5,6 +5,7 @@
 */
 
 .d-f { display: flex; }
+.d-if { display: inline-flex; }
 
 .fxw-w { flex-wrap: wrap; }
 .fxw-wr { flex-wrap: wrap-reverse; }

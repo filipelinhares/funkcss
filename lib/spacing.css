@@ -106,3 +106,7 @@
 }
 
 .mX-a { margin-left: auto; margin-right: auto; }
+.mT-a { margin-top: auto; }
+.mR-a { margin-right: auto; }
+.mB-a { margin-bottom: auto; }
+.mL-a { margin-left: auto; }

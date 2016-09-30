@@ -31,3 +31,12 @@
 
 .rsz-v { resize: vertical; }
 .rsz-h { resize: horizontal; }
+
+.op-0 { opacity: 0; }
+.op-05 { opacity: 0.5; }
+.op-1 { opacity: 1; }
+
+.cur-p { cursor: pointer; }
+
+.v-v { visibility: visible; }
+.v-h { visibility: hidden; }
