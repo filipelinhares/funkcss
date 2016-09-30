@@ -27,7 +27,7 @@
 .fl-n { float: none; }
 
 .va-t { vertical-align: top; }
-.va-m { vertical-align: center; }
+.va-m { vertical-align: middle; }
 .va-b { vertical-align: bottom; }
 
 .pos-s { position: static; }
