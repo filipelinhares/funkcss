@@ -19,18 +19,16 @@
   },
   "homepage": "https://github.com/filipelinhares/funkcss#readme",
   "scripts": {
-    "setup": "npm install && gulp",
-    "watch": "gulp watch",
-    "compile": "gulp",
-    "test": "stylelint lib/*.css"
-
+    "setup": "npm install",
+    "test": "stylelint lib/*.css",
+    "compile": "postcss -u postcss-import -u postcss-url -u postcss-cssnext -u postcss-for -u postcss-import -u postcss-nested -u postcss-reporter -o ./dist/funkcss.css ./lib/index.css",
+    "minify": "postcss -u cssnano -o ./dist/funkcss.min.css ./dist/funkcss.css",
+    "immutable": "postcss -u postcss-importantly -o ./dist/funkcss-immutable.min.css ./dist/funkcss.min.css",
+    "build": "npm run compile && npm run minify && npm run immutable"
   },
   "devDependencies": {
     "cssnano": "^3.5.2",
-    "del": "^2.2.0",
-    "gulp": "^3.9.0",
-    "gulp-postcss": "^6.0.1",
-    "gulp-rename": "^1.2.2",
+    "postcss-cli": "^2.6.0",
     "postcss-cssnext": "^2.5.2",
     "postcss-for": "^2.0.1",
     "postcss-import": "^8.1.0",
