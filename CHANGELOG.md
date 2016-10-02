@@ -1,3 +1,17 @@
+## [v0.9.2]
+:wrench: Removing gulp
+
+We're removing gulp and using npm as a build tool.
+
+**npm commands**
+- `$ npm run setup`
+- `$ npm run compile`
+- `$ npm run minify`
+- `$ npm run immutable`
+- `$ npm run build`
+
+_You can know more about it reading our [contributing guide](https://github.com/filipelinhares/funkcss/blob/master/CONTRIBUTING.md)._
+
 ## [v0.9.1]
 :star: New features and fixes
 
