@@ -5,18 +5,19 @@
 */
 
 .w-a { width: auto; }
-.w-10 { width: 10%; }
-.w-20 { width: 20%; }
-.w-30 { width: 30%; }
-.w-40 { width: 40%; }
-.w-50 { width: 50%; }
-.w-60 { width: 60%; }
-.w-70 { width: 70%; }
-.w-80 { width: 80%; }
-.w-90 { width: 90%; }
-.w-100 { width: 100%; }
+.w-10p { width: 10%; }
+.w-20p { width: 20%; }
+.w-30p { width: 30%; }
+.w-40p { width: 40%; }
+.w-50p { width: 50%; }
+.w-60p { width: 60%; }
+.w-70p { width: 70%; }
+.w-80p { width: 80%; }
+.w-90p { width: 90%; }
+.w-100p { width: 100%; }
 
-.maw-100 { max-width: 100%; }
+.maw-100p { max-width: 100%; }
 
-.h-100 { height: 100vh; }
+.h-100vh { height: 100vh; }
+.mih-100vh { height: 100vh; }
 

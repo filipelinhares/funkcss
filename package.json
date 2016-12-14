@@ -24,7 +24,8 @@
     "compile": "postcss -u postcss-import -u postcss-url -u postcss-for -u postcss-cssnext -u  postcss-import -u postcss-nested -u postcss-reporter -o ./dist/funkcss.css ./lib/index.css",
     "minify": "postcss -u cssnano -o ./dist/funkcss.min.css ./dist/funkcss.css",
     "immutable": "postcss -u postcss-importantly -o ./dist/funkcss-immutable.min.css ./dist/funkcss.min.css",
-    "build": "npm run compile && npm run minify && npm run immutable"
+    "build": "npm run compile && npm run minify && npm run immutable",
+    "help": "node"
   },
   "devDependencies": {
     "cssnano": "^3.5.2",
