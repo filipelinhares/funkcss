@@ -1,8 +1,15 @@
-/*
-
-  LAYOUT HELPERS
-
-*/
+:root {
+  --z-scale-0: 0;
+  --z-scale-1: 1000;
+  --z-scale-2: 2000;
+  --z-scale-3: 3000;
+  --z-scale-4: 4000;
+  --z-scale-5: 5000;
+  --z-scale-6: 6000;
+  --z-scale-7: 7000;
+  --z-scale-8: 8000;
+  --z-scale-9: 9000;
+}
 
 .d-n { display: none; }
 .d-b { display: block; }
@@ -59,17 +66,4 @@
 
 @for $i from 0 to 9 {
   .z-$(i) { z-index: var(--z-scale-$(i)); }
-}
-
-:root {
-  --z-scale-0: 0;
-  --z-scale-1: 1000;
-  --z-scale-2: 2000;
-  --z-scale-3: 3000;
-  --z-scale-4: 4000;
-  --z-scale-5: 5000;
-  --z-scale-6: 6000;
-  --z-scale-7: 7000;
-  --z-scale-8: 8000;
-  --z-scale-9: 9000;
 }

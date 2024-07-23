@@ -1,9 +1,3 @@
-/*
-
-  LISTS HELPERS
-
-*/
-
 .lisp-i { list-style-position: inside; }
 .lisp-o { list-style-position: outside; }
 
@@ -12,4 +6,3 @@
 .list-s { list-style-type: square; }
 .list-u { list-style-type: upper-roman; }
 .list-l { list-style-type: lower-alpha; }
-

@@ -1,8 +1,7 @@
-/*
-
-  BORDER HELPERS
-
-*/
+:root {
+  --border-width: 1px;
+  --border-color: rgba(0, 0, 0, 0.0625);
+}
 
 .bd { border: var(--border-width) solid var(--border-color); }
 .bdT { border-top: var(--border-width) solid var(--border-color); }
@@ -51,8 +50,3 @@
 .bds-r { border-style: ridge; }
 .bds-i { border-style: inset; }
 .bds-o { border-style: outset; }
-
-:root {
-  --border-width: 1px;
-  --border-color: rgba(0, 0, 0, 0.0625);
-}

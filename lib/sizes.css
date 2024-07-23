@@ -1,9 +1,3 @@
-/*
-
-  WIDTH SIZES HELPERS
-
-*/
-
 .w-a { width: auto; }
 .w-10 { width: 10%; }
 .w-20 { width: 20%; }
@@ -19,4 +13,3 @@
 .maw-100 { max-width: 100%; }
 
 .h-100 { height: 100vh; }
-
