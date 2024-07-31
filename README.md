@@ -1,8 +1,6 @@
 
 # funkcss [![funkcss npm](https://img.shields.io/npm/v/funkcss.svg)](https://www.npmjs.com/package/funkcss) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/funkcss)
 
----
-
 ### Flexible
 Following strict yet simple conventions it's easy to extend funkcss to suit almost any project.
 
