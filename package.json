@@ -1,6 +1,6 @@
 {
   "name": "funkcss",
-  "version": "0.9.3",
+  "version": "0.10.0",
   "description": "Atomic CSS lib",
   "style": "dist/funkcss.min.css",
   "main": "dist/funkcss.min.css",
