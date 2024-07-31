@@ -39,3 +39,7 @@
 @for $i from 0 to 10 {
   .ord-$(i) { order: $i; }
 }
+
+@for $i from 1 to 4 {
+  .g-$(i) { gap: var(--gap-$(i)) }
+}

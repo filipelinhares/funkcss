@@ -29,10 +29,6 @@
 .ovY-s { overflow-y: scroll; }
 .ovX-s { overflow-x: scroll; }
 
-.fl-l { float: left; }
-.fl-r { float: right; }
-.fl-n { float: none; }
-
 .va-t { vertical-align: top; }
 .va-m { vertical-align: middle; }
 .va-b { vertical-align: bottom; }
@@ -48,20 +44,6 @@
   .r-$(i) { right: var(--gap-$(i)); }
   .b-$(i) { bottom: var(--gap-$(i)); }
   .l-$(i) { left: var(--gap-$(i)); }
-}
-
-@for $i from 0 to 30 by 5 {
-  .t-$(i) { top: $(i)px; }
-  .r-$(i) { right: $(i)px; }
-  .b-$(i) { bottom: $(i)px; }
-  .l-$(i) { left: $(i)px; }
-}
-
-@for $i from 40 to 100 by 10 {
-  .t-$(i) { top: $(i)px; }
-  .r-$(i) { right: $(i)px; }
-  .b-$(i) { bottom: $(i)px; }
-  .l-$(i) { left: $(i)px; }
 }
 
 @for $i from 0 to 9 {
