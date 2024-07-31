@@ -1,7 +1,7 @@
 {
   "name": "funkcss",
   "version": "0.9.3",
-  "description": "Pure functional CSS",
+  "description": "Atomic CSS lib",
   "style": "dist/funkcss.min.css",
   "main": "dist/funkcss.min.css",
   "repository": {
@@ -10,7 +10,8 @@
   },
   "keywords": [
     "css",
-    "functional"
+    "functional",
+    "atomic"
   ],
   "author": "Filipe Linhares <lip.linhares@gmail.com> (http://filipelinhares.com)",
   "license": "MIT",
@@ -19,23 +20,18 @@
   },
   "homepage": "https://github.com/filipelinhares/funkcss#readme",
   "scripts": {
-    "setup": "npm install",
-    "test": "stylelint lib/*.css",
-    "compile": "postcss -u postcss-import -u postcss-url -u postcss-for -u postcss-cssnext -u  postcss-import -u postcss-nested -u postcss-reporter -o ./dist/funkcss.css ./lib/index.css",
-    "minify": "postcss -u cssnano -o ./dist/funkcss.min.css ./dist/funkcss.css",
-    "immutable": "postcss -u postcss-importantly -o ./dist/funkcss-immutable.min.css ./dist/funkcss.min.css",
-    "build": "npm run compile && npm run minify && npm run immutable"
+    "compile": "postcss --config postcss.config.js -o ./dist/funkcss.css ./lib/index.css",
+    "minify": "postcss --no-map  -u cssnano -o ./dist/funkcss.min.css ./dist/funkcss.css",
+    "build": "npm run compile && npm run minify"
   },
   "devDependencies": {
-    "cssnano": "^3.5.2",
-    "postcss-cli": "^2.6.0",
-    "postcss-cssnext": "^2.5.2",
-    "postcss-for": "^2.0.1",
-    "postcss-import": "^8.1.0",
-    "postcss-importantly": "0.0.7",
-    "postcss-nested": "^1.0.0",
-    "postcss-reporter": "^1.3.3",
-    "postcss-url": "^5.1.1",
-    "stylelint": "^6.1.1"
+    "cssnano": "^7.0.4",
+    "postcss-cli": "^11.0.0",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^16.1.0",
+    "postcss-nested": "^6.2.0",
+    "postcss-preset-env": "^9.6.0",
+    "postcss-url": "^10.1.3",
+    "stylelint": "^16.7.0"
   }
 }
