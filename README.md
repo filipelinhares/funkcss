@@ -1,5 +1,5 @@
 
-[![funkcss npm](https://img.shields.io/npm/v/funkcss.svg)](https://www.npmjs.com/package/funkcss)
+# funkcss [![funkcss npm](https://img.shields.io/npm/v/funkcss.svg)](https://www.npmjs.com/package/funkcss) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/funkcss)
 
 ---
 
